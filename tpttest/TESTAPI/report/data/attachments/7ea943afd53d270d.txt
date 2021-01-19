@@ -1,0 +1,236 @@
+INFO     logs1.log:logfun.py:24 请求开始：请求接口名称 网点查询接口
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Sat, 16 Jan 2021 09:02:49 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917184e45525d5f4f58455e445a4a4231d2;expires=Sat, 16-Jan-2021 09:22:49 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/lifems/appointment/allListSiteByCity
+请求入参{'city': '上海市', 'lat': 31.188655, 'lng': 121.461994, 'pageNumber': 1, 'pageSize': 100}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "siteList" : [ {
+      "dtos" : [ {
+        "siteid" : "SID20200110101517581148939",
+        "sitecode" : "10110-001",
+        "sitename" : "黄浦支公司",
+        "orderservice" : "1",
+        "businesshours" : "周一至周五：上午 09：00—12：00，下午 13：30—17：30，周六营业时间上午 09：00—11：30，下午 13：00—17：00，不受理缴费业务（现金及POS机等），周日休息",
+        "tel" : null,
+        "address" : "上海市黄浦区延安东路550号15楼\r\n",
+        "lng" : "121.488114",
+        "lat" : "31.236727",
+        "distance" : 5.9009340270228625
+      }, {
+        "siteid" : "SID20200110101632095733336",
+        "sitecode" : "10120-001",
+        "sitename" : "陆家嘴支公司",
+        "orderservice" : "1",
+        "businesshours" : "周一至周五：上午 09：00—12：00，下午 13：30—17：30，周六营业时间上午 09：00—11：30，下午 13：00—17：00，不受理缴费业务（现金及POS机等），周日休息",
+        "tel" : null,
+        "address" : "上海市浦东新区世纪大道1168号东方金融广场B座17楼",
+        "lng" : "121.529216",
+        "lat" : "31.235738",
+        "distance" : 8.272262833898195
+      } ],
+      "mobilePhone" : null,
+      "projectName" : "寿险"
+    }, {
+      "dtos" : [ {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市徐汇支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-54071100",
+        "address" : "上海市龙吴路410弄87号510室",
+        "lng" : "121.4582478158788",
+        "lat" : "31.16503228100681",
+        "distance" : 2.6537636190603457
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市长宁支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-61918230",
+        "address" : "上海市长宁区延安西路2067号仲盛金融中心1103-1104室",
+        "lng" : "121.41474064684307",
+        "lat" : "31.2099589470985",
+        "distance" : 5.086172559189756
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市闸北支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-56901155",
+        "address" : "上海市静安区天目西路511号1702-04室",
+        "lng" : "121.45792500709888",
+        "lat" : "31.25262388172572",
+        "distance" : 7.1315111479614455
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市浦东支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-50942886",
+        "address" : "上海市浦东新区峨山路111号4号楼1楼",
+        "lng" : "121.53675922068793",
+        "lat" : "31.22062105869822",
+        "distance" : 7.958542961366764
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司航运保险运营中心",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-61629311",
+        "address" : "上海市浦东新区杨高南路799号陆家嘴世纪金融广场3号楼1504",
+        "lng" : "121.54160252198061",
+        "lat" : "31.219625265275153",
+        "distance" : 8.327101680916071
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市虹口支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-65210077",
+        "address" : "上海市虹口区四平路257号喜临门大厦21楼A座",
+        "lng" : "121.49612517941904",
+        "lat" : "31.267604155174685",
+        "distance" : 9.369891864698412
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市闵行支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-64125533",
+        "address" : "上海市闵行区莘建东路58弄2号1707、1708室",
+        "lng" : "121.39380512759381",
+        "lat" : "31.121995945982048",
+        "distance" : 9.862052653123207
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市张江支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-50790770",
+        "address" : "上海市浦东新区张江路368号22号楼2023室",
+        "lng" : "121.6172915658605",
+        "lat" : "31.21470970222418",
+        "distance" : 15.068735221470407
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市宝山支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-56580018",
+        "address" : "上海市宝山区淞桥东路111号",
+        "lng" : "121.50090737976754",
+        "lat" : "31.37715942388165",
+        "distance" : 21.30826949144151
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市奉贤支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-57199912",
+        "address" : "上海市奉贤区环城东路383号2幢303、305室",
+        "lng" : "121.46560659717579",
+        "lat" : "30.95228854081913",
+        "distance" : 26.314448442479527
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市嘉定支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-59527928",
+        "address" : "上海市嘉定区嘉罗公路336号701、702、703、705室",
+        "lng" : "121.26881004539082",
+        "lat" : "31.38455159358171",
+        "distance" : 28.51833200111197
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市松江支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-58877888",
+        "address" : "上海市松江区乐都路339号1501、1502室",
+        "lng" : "121.23494049434099",
+        "lat" : "31.01920207500092",
+        "distance" : 28.70869607466897
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市南汇支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-68252279",
+        "address" : "上海市浦东新区惠南镇西门路430、432号",
+        "lng" : "121.74727628961189",
+        "lat" : "31.052371539553687",
+        "distance" : 31.133450666789255
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司上海市金山支公司",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-61760616",
+        "address" : "上海市金山区龙展路150号605室",
+        "lng" : "121.24840817975154",
+        "lat" : "30.83508077708232",
+        "distance" : 44.32193531481256
+      }, {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平财产保险有限公司金山营销服务部",
+        "orderservice" : null,
+        "businesshours" : null,
+        "tel" : "021-37262301",
+        "address" : "上海市金山区石化施三路59号",
+        "lng" : "121.33381074219419",
+        "lat" : "30.730643573520426",
+        "distance" : 52.4333649968777
+      } ],
+      "mobilePhone" : null,
+      "projectName" : "财险"
+    }, {
+      "dtos" : [ {
+        "siteid" : null,
+        "sitecode" : null,
+        "sitename" : "太平养老上海分公司",
+        "orderservice" : null,
+        "businesshours" : "周一至周五：08：30-11：30，13：00-17：30",
+        "tel" : null,
+        "address" : "上海市静安区南京西路1788号（1788国际中心）18楼（200040）",
+        "lng" : "121.45384169652189",
+        "lat" : "31.23029186021341",
+        "distance" : 4.6995336248805835
+      } ],
+      "mobilePhone" : null,
+      "projectName" : "养老"
+    }, {
+      "dtos" : [ ],
+      "mobilePhone" : null,
+      "projectName" : "太平香港"
+    }, {
+      "dtos" : [ ],
+      "mobilePhone" : null,
+      "projectName" : "太寿香港"
+    }, {
+      "dtos" : [ ],
+      "mobilePhone" : null,
+      "projectName" : "太平澳门"
+    } ]
+  }
+}

@@ -1,0 +1,34 @@
+[ {
+  "buildOrder" : 20,
+  "reportUrl" : "http://localhost:8080/job/TPT-APITEST/20/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 19,
+  "reportUrl" : "http://localhost:8080/job/TPT-APITEST/19/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 14
+  }
+}, {
+  "buildOrder" : 18,
+  "reportUrl" : "http://localhost:8080/job/TPT-APITEST/18/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 14
+  }
+}, {
+  "buildOrder" : 17,
+  "reportUrl" : "http://localhost:8080/job/TPT-APITEST/17/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "buildOrder" : 16,
+  "reportUrl" : "http://localhost:8080/job/TPT-APITEST/16/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+} ]

@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 16,
+  "reportUrl" : "http://localhost:8080/job/TPT-APITEST/16/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 15,
+    "retry" : 0
+  }
+} ]

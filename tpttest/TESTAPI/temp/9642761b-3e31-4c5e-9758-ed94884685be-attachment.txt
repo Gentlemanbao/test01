@@ -1,0 +1,14 @@
+INFO     logs1.log:logfun.py:24 请求开始：请求接口名称 isExistsRenewPolicyFlag
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Sat, 16 Jan 2021 08:59:46 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917183145525d5f4f58455e445a4a4231d2;expires=Sat, 16-Jan-2021 09:19:46 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/lifems/user/isExistsRenewPolicyFlag
+请求入参None
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "isView" : "0"
+  }
+}

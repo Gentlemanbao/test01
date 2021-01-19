@@ -1,0 +1,1699 @@
+INFO     logs1.log:logfun.py:24 请求开始：请求接口名称 获取服务指引接口
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Sat, 16 Jan 2021 09:02:50 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917184445525d5f4f58455e445a4a4231d2;expires=Sat, 16-Jan-2021 09:22:50 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/campaignsms/getProblemList
+请求入参{'baseId': 0}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "userId" : null,
+    "baseList" : [ {
+      "baseId" : 1,
+      "baseName" : "寿险问题",
+      "baseImg" : null,
+      "subList" : [ {
+        "subId" : 1,
+        "tableId" : null,
+        "subName" : "理赔申请",
+        "infoList" : [ {
+          "id" : "2",
+          "infoId" : "2",
+          "subId" : 1,
+          "title" : "理赔项目及对应材料",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><p><img src=\"https://ecustomercdn.itaiping.com/static/rn/src/img/liPeiQuestion20210113.png\" style=\"width: 100%;\"><br></p><p><span style=\"color: rgb(46, 117, 181); font-family: 等线; font-size: 14px;\">申请重大疾病险种还需提供病理报告或条款约定的其他证明材料。</span><br></p><p><span style=\"color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-size: medium;\">注意：</span><span style=\"color: rgb(46, 117, 181); font-family: 等线; font-size: 14px;\"><br></span></p><p><span style=\"color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-size: medium;\">理赔申请书为理赔必备文件，包括理赔申请、理赔委托和理赔委托转账授权内容，客户可以到太平人寿网站单证下载处下载使用。如果委托他人代为办理理赔。请详细填写理赔委托内容：如您采用银行转账方式领取理赔金。请详细填写理赔委托转账内容并提供受益人的存折复印件。附近上述材料外，保险金申请人还应根据保险公司的实际需要提供其他相关证明。除上述证明外，保险金申请人还应根据保险公司的实际需要提供其他相关的证明。</span><span style=\"color: rgb(0, 0, 0); font-family: &quot;Microsoft YaHei&quot;; font-size: medium;\"><br></span></p></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "2222",
+          "infoId" : "2222",
+          "subId" : 1,
+          "title" : "发生保险事故后，如何理赔？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><div style=\"font-size:15px\"><p style=\"margin: 0px;\">发生保险事故后，您首先要做的是通知保险公司。您可以拨打我公司的报案电话：95589，或者与您的业务员联系，公司会帮助您进行理赔申请。<br></p></div></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "37",
+          "infoId" : "37",
+          "subId" : 1,
+          "title" : "保险事故发生后，何时向保险公司报案？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>您或受益人知道保险事故后应当在10日内通知我们，可通过拨打我公司的报案电话：95589，或者与您的业务员联系报案。 如果您或受益人因故意或者因重大过失未及时通知，致使保险事故的性质、原因、损失程度等难以确定的，我们对无法确定的部分，不承担给付保险金的责任。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "38",
+          "infoId" : "38",
+          "subId" : 1,
+          "title" : "因故暂不能提出理赔申请的，保险合同条款对于理赔申请是否有时间要求？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>人寿保险以外的其他保险（医疗险、意外伤残保险金、重大疾病险）的被保险人或者受益人，申请时效为二年，自其知道或者应当知道保险事故发生之日起计算。人寿保险（身故保险金）的被保险人或者受益人申请时效为五年，自其知道或者应当知道保险事故发生之日起计算。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "39",
+          "infoId" : "39",
+          "subId" : 1,
+          "title" : "未成年人因病住院，要申请住院医疗险理赔，谁有资格代为申请？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>受益人为未成年人的理赔申请应由具有其监护权的监护人（一般为被保险人的父母）代为申请。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "40",
+          "infoId" : "40",
+          "subId" : 1,
+          "title" : "身故受益人为未成年人，其父母离异的，谁有资格代为申请保险金？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>身故受益人为未成年人的，若父母离异，由父母中有监护权的一方作为监护人代为申请保险金，申请时须提供监护关系证明。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "41",
+          "infoId" : "41",
+          "subId" : 1,
+          "title" : "我在国外发生了保险事故，是否可以申请理赔？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>被保险人在境外发生保险事故，投保人、被保险人或受益人应在保险事故发生之日起十日内通知本公司。 受益人凭保险合同、受益人身份证件、（被保险人的护照及入境证明）、事故发生地公共医疗机构或交通警察部门或其他市政府部门出具的相关证明（保险事故证明、重大疾病鉴定证明、伤残鉴定证明或死亡证明）等理赔材料前来申请理赔，以上证明均须由被保人事故发生地的中国使领馆确认。 如被保险人系死亡，死亡证明须事故地中国使领馆确认并提供验葬证明，如骨灰或遗体遣返国内，须一并提供骨灰或遗体运送证明。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "42",
+          "infoId" : "42",
+          "subId" : 1,
+          "title" : "投保后因病在异地发生住院的，如何申请理赔？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>根据就近、方便客户的原则，受益人可自主选择理赔申请地，投保地或就医地凡有我公司业务网点的地区均可以受理客户申请。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "43",
+          "infoId" : "43",
+          "subId" : 1,
+          "title" : "宽限期内发生保险事故，应如何理赔？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>宽限期只是为客户缴费提供一个宽限的时间，但从保险期间来讲已经属于下一年度的保险责任，所以保险公司将从给付的保险金中扣除保户下一年度所应缴的保费，若给付的保险金不足以支付保险费，则应先补交保险费后再给付理赔保险金。但若是投保短期险险种，且险种为停效状态的，我公司原则上不承担保险责任。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "44",
+          "infoId" : "44",
+          "subId" : 1,
+          "title" : "小额理赔立等可取是怎么回事？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>这是为方便客户开通的一项快速理赔服务。对赔付金额≤500元的理赔申请、如事实清楚、资料齐全，我公司可当场向受益人给付保险金。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        } ]
+      }, {
+        "subId" : 2,
+        "tableId" : null,
+        "subName" : "理赔资料",
+        "infoList" : [ {
+          "id" : "3",
+          "infoId" : "3",
+          "subId" : 2,
+          "title" : "发生住院医疗时，理赔申请需要准备什么样的材料？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>• 保险合同；<br>• 被保险人的有效身份证件，转帐银行及帐号；<br>• 医院出具的被保险人医疗诊断书（包括必要的病历记录及检查报告）、出院小结及住院医疗费用的原始凭证和账单明细表；<br>• 所能提供的与确认保险事故的性质、原因、伤害程度等有关的证明和资料；<br>• 如果委托他人代为申请，则应提供授权委托书、受托人有效身份证件等相关证明文件。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "333",
+          "infoId" : "333",
+          "subId" : 2,
+          "title" : "发生意外医疗时，理赔申请需要准备什么样的材料？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>在申请意外医疗保险金时，受益人须填写理赔申请表，并提供下列证明和资料：<br>• 保险合同；<br>• 被保人的有效身份证件，转帐银行及帐号；<br>• 医院出具的被保险人医疗诊断书（包括必要的病历记录及检查报告）、出院小结及医疗费用的原始凭证和账单明细表（如有住院）；<br>• 所能提供的与确认保险事故的性质、原因、伤害程度等有关的证明和资料；<br>• 如果委托他人代为申请，则应提供授权委托书、受托人有效身份证件等相关证明文件。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "46",
+          "infoId" : "46",
+          "subId" : 2,
+          "title" : "发生重大疾病时，理赔申请需要准备什么样的材料？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>在申请重大疾病保险金时，受益人须填写理赔申请表，并提供下列证明和资料：<br>• 保险合同；<br>• 被保人的有效身份证件，转帐银行及帐号；<br>• 医院出具的附有被保险人病理、血液及其它科学方法检验报告等诊断证明文件，门（急）诊病历，出院小结；<br>• 所能提供的与确认保险事故的性质、原因等有关的其他证明和资料；<br>• 如果委托他人代为申请，则应提供授权委托书、受托人有效身份证件等相关证明文件。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "47",
+          "infoId" : "47",
+          "subId" : 2,
+          "title" : "发生身故时，理赔申请需要准备哪些材料？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>在申请身故保险金时，受益人须填写理赔申请表，并提供下列证明和资料：<br>• 保险合同；<br>• 受益人的有效身份证件，转帐银行及帐号；<br>• 门诊病历、出院小结；如属意外死亡须提供意外事故证明；<br>• 国家卫生行政部门认定的医疗机构、公安部门或其他相关机构出具的被保险人的死亡证明；丧葬证明、户口注销证明；<br>• 所能提供的与确认保险事故的性质、原因等有关的其他证明和资料；<br>• 如果委托他人代为申请，则应提供授权委托书、受托人有效身份证件等相关证明文件。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "48",
+          "infoId" : "48",
+          "subId" : 2,
+          "title" : "被保人为未成年人，出生证明是否可以作为其有效身份证件？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>• 有效身份证件是指身份证、户口簿、护照、军人证等；<br>• 户口簿的使用仅限于十六周岁以下尚未申领身份证的未成年人；<br>• 幼儿尚未落户的出生证明可以作为其有效身份证件。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "49",
+          "infoId" : "49",
+          "subId" : 2,
+          "title" : "投保人、被保险人、受益人之间的关系证明都有哪些?",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>投保人、被保险人、受益人之间的关系证明包括：<br>• 户口簿（含首页及\"与户主关系\"非空白）、结婚证、出生证、独生子女证；<br>• 各级政府或公安机关出具的关系证明；<br>• 公证书（亲属关系公证）。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "50",
+          "infoId" : "50",
+          "subId" : 2,
+          "title" : "因交通意外住院，是否与其他住院一样提供就诊资料？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>因交通意外住院申请理赔时，除基本索赔资料外，还需要提供由交管部门出具的《道路交通事故责任认定书》原件，如系本人驾驶机动车发生的事故，请一并提供个人的有效驾驶证和车辆行驶证。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "51",
+          "infoId" : "51",
+          "subId" : 2,
+          "title" : "申请身故保险金，需要提供三证，指的是哪三证？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>受益人申请身故保险金时须提供的\"三证\"，是指：<br>国家卫生行政部门认定的医疗机构、公安部门或其他相关机构出具的被保险人的死亡证明、丧葬证明、户口注销证明。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "52",
+          "infoId" : "52",
+          "subId" : 2,
+          "title" : "发票原件遗失，医院出具的证明可作为报销医药费的凭证吗？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>医院证明不等同于发票原件，发票原件作为医疗费用支出的凭证请务必妥善保存，如果遗失，请仔细寻找。医疗险索赔的诉讼时效是事故发生之日起2年，被保人在2年内找到发票的，都可以来申请理赔。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "53",
+          "infoId" : "53",
+          "subId" : 2,
+          "title" : "申请时已提交了理赔资料，为什么公司还需要补充提供资料？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>《保险法》规定：保险事故发生后，按照保险合同请求保险人赔偿或者给付保险金时，投保人、被保险人或者受益人应当向保险人提供其所能提供的与确认保险事故的性质、原因、损失程度等有关的证明和资料。 保险人按照合同的约定，认为有关的证明和资料不完整的，应当及时一次性通知投保人、被保险人或者受益人补充提供。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "54",
+          "infoId" : "54",
+          "subId" : 2,
+          "title" : "因单位报销了部分医药费，发票原件在单位留存，还能申请理赔吗？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>如果您所支出的医疗费尚未足额获得赔付（不包括非医保支付项目），在出具加盖单位财务章的发票复印件及报销金额证明后仍可向我公司提出理赔申请。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "55",
+          "infoId" : "55",
+          "subId" : 2,
+          "title" : "一次理赔申请一般多长时间能获得赔付？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>理赔时效因具体申请情况不同而异，如您提交的理赔申请资料齐全、事实清楚、责任明确，我们将在收到您的资料后3个工作日内做出理赔决定并及时通知您。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "511",
+          "infoId" : "511",
+          "subId" : 2,
+          "title" : "申请意外伤残保险金，病历是否可以作为确定残疾的依据？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>对于肢体缺失类的伤残申请，病历已反映出了残疾情况的则可以作为确定残疾的依据；但其他类型的伤残申请，须提供我司认可的或有鉴定资质的鉴定机构出具的残疾鉴定报告。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "544",
+          "infoId" : "544",
+          "subId" : 2,
+          "title" : "医疗费已经社会医疗保险报销了一部分，剩下的费用可以申请理赔吗？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>如您所支出的医疗费在社会医疗报销尚未足额获得赔付（不包括非医保支付项目），在提供相关发票及报销结算单（其一必须为原件）后，可以向我公司提出理赔申请。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        } ]
+      }, {
+        "subId" : 3,
+        "tableId" : null,
+        "subName" : "名词解释",
+        "infoList" : [ {
+          "id" : "4",
+          "infoId" : "4",
+          "subId" : 3,
+          "title" : "保险期间是如何定义的？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>保险期间：指保险合同期间，自本合同生效日起至合同约定终止时止，并在保险单上载明。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "56",
+          "infoId" : "56",
+          "subId" : 3,
+          "title" : "什么是保险事故？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>保险事故：指本合同约定的保险责任范围内的事故。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "57",
+          "infoId" : "57",
+          "subId" : 3,
+          "title" : "什么是意外伤害事故？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>意外伤害事故：指外来的、突发的、非本意的、非疾病的使身体受到伤害的客观事件。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "58",
+          "infoId" : "58",
+          "subId" : 3,
+          "title" : "保险合同中对医院是如何约定的？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>医院：国家卫生部医院等级分类中的二级或二级以上的医院，但不包括主要为门诊、康复、护理、疗养、戒酒、戒毒或相类似的医疗机构。同时该医院必须具有符合有关医院管理规定设置标准的医疗设备，并且提供24小时有合格医师及护士驻院的医疗和护理等服务。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "59",
+          "infoId" : "59",
+          "subId" : 3,
+          "title" : "保险合同对住院是如何约定的？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>住院：被保险人因疾病或意外伤害，经医生根据临床诊断，必须留院治疗，办理了正式住院手续且确实留院治疗的行为过程。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "60",
+          "infoId" : "60",
+          "subId" : 3,
+          "title" : "保险合同中社会医疗保险是如何定义的？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>社会医疗保险：各省市城镇职工基本医疗保险办法和各省市城镇职工地方附加医 疗保险办法规定的医疗保险，其中各省市城镇职工基本医疗保险办法是指各省市人民政府令发布的为保障职工基本医疗需求制定的管理办法。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "61",
+          "infoId" : "61",
+          "subId" : 3,
+          "title" : "投保人、被保人、受益人的有效身份证件有哪些？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>有效身份证件：指身份证、户口簿、护照、军人证等。户口簿的使用仅限于十六周岁以下尚未申领身份证的未成年人。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "62",
+          "infoId" : "62",
+          "subId" : 3,
+          "title" : "什么是酒后驾驶？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>酒后驾驶：指经检测或鉴定，发生事故时车辆驾驶人员每百毫升血液中的酒精含量达到或超过一定的标准，公安机关交通管理部门依据《道路交通安全法》的规定认定为饮酒后驾驶或醉酒后驾驶任免除情形。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "63",
+          "infoId" : "63",
+          "subId" : 3,
+          "title" : "哪些情况属于无合法有效的驾驶证驾驶？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>无合法有效驾驶证驾驶：指下列情形之一：<br>\r\n（1）没有取得驾驶资格；<br>\r\n（2）驾驶与驾驶证准驾车型不相符合的车辆；<br>\r\n（3）持审验不合格的驾驶证驾驶；<br>\r\n（4）持学习驾驶证学习驾车时，无教练员随车指导，或不按指定时间、路线学习驾车。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "64",
+          "infoId" : "64",
+          "subId" : 3,
+          "title" : "机动车无有效行驶证的情形有哪些？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>无合法有效驾驶证驾驶：指下列情形之一：<br>\r\n（1）没有取得驾驶资格；<br>\r\n（2）驾驶与驾驶证准驾车型不相符合的车辆；<br>\r\n（3）持审验不合格的驾驶证驾驶；<br>\r\n（4）持学习驾驶证学习驾车时，无教练员随车指导，或不按指定时间、路线学习驾车。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        } ]
+      } ],
+      "tableList" : null
+    }, {
+      "baseId" : 2,
+      "baseName" : "财险问题",
+      "baseImg" : null,
+      "subList" : [ {
+        "subId" : 4,
+        "tableId" : null,
+        "subName" : "财险问题",
+        "infoList" : [ {
+          "id" : "5",
+          "infoId" : "5",
+          "subId" : 4,
+          "title" : "有些保单没有在线理赔，该怎么办？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>部分险种在线理赔功能尚在开发中，请您联系95589进行报案申请理赔。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "6",
+          "infoId" : "6",
+          "subId" : 4,
+          "title" : "对部分保单有疑问，需要怎么解决？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>如您对保单显示或理赔有疑问，请您联系95589进行反馈。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        } ]
+      } ],
+      "tableList" : null
+    }, {
+      "baseId" : 3,
+      "baseName" : "养老险问题",
+      "baseImg" : null,
+      "subList" : [ {
+        "subId" : 5,
+        "tableId" : null,
+        "subName" : "理赔常见问题",
+        "infoList" : [ {
+          "id" : "7",
+          "infoId" : "7",
+          "subId" : 5,
+          "title" : "什么是意外伤害？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>在保险条款中，意外伤害是指外来的、突发的、非本意的、非疾病的使身体受到伤害的客观事件。比如交通意外事故导致的人员骨折、不慎烫伤等。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "70",
+          "infoId" : "70",
+          "subId" : 5,
+          "title" : "医疗发票原件遗失是否可以索赔？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>医疗发票原件是财务记帐的唯一凭证，是您向保险公司索赔的重要依据之一。如果医院可以补开医院签章的原始发票，则保险公司可以受理，但按照财务制度，任何一家单位包括医院一般都不会重复开具的；若去医院补到的只是发生过此笔费用的证明，而非原始发票，则不能作为理赔的依据。<br>\r\n小太温馨提示：鉴于医疗发票原件对于索赔的重要性，请您在每次就诊后妥善保存您的医疗发票原件哦！<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "71",
+          "infoId" : "71",
+          "subId" : 5,
+          "title" : "理赔申请有时间限制吗？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>按照《保险法》规定，人寿保险的申请时效为保险事故发生后五年内，其他人身险的申请时效为二年内，保险合同有特别约定的按照特别约定。通常为了确保您的利益，我们建议您尽量在3个月之内提供。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "72",
+          "infoId" : "72",
+          "subId" : 5,
+          "title" : "如何判断是否二级或二级以上医院？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>一般情况下，公立医院在医院大门口显著位置会挂有卫生行政管理部门颁发的医院等级标志，若未能找到该标志的话您可去门诊办公室询问该医院是私立还是公立医院，若为公立医院请再仔细询问医院等级是否属于二级或二级以上。<br>\r\n小太温馨提示：为了确保您的保险利益，请一定确认好医院性质后再去就诊哦！或者立即体验“医院信息”查询微服务，让我来告诉您所想了解的医院信息。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "73",
+          "infoId" : "73",
+          "subId" : 5,
+          "title" : "理赔时效是多久？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>理赔时效自保险公司收到您完整正确的理赔资料后的次日开始计算，通常为10-15个工作日（调查案件除外）。支付理赔款时，银行转账还需要3个工作日。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        } ]
+      }, {
+        "subId" : 6,
+        "tableId" : null,
+        "subName" : "理赔申请材料",
+        "infoList" : [ {
+          "id" : "8",
+          "infoId" : "8",
+          "subId" : 6,
+          "title" : "门诊险理赔申请",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>门诊险理赔申请材料包括：<br>\r\n门诊病历、疾病诊断证明书、处方、相关检验报告等；<br>\r\n被保险人医疗费原始收据或社保结算单及费用明细；<br>\r\n与确认保险事故性质和原因有关的其他证明材料；<br>\r\n团体医疗险理赔申请书。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "80",
+          "infoId" : "80",
+          "subId" : 6,
+          "title" : "非门诊险_住院津贴理赔申请",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>住院津贴理赔申请材料包括：<br>\r\n保险单或保险凭证（保险合同的第一页复印件）；<br>\r\n被保险人身份证明（身份证、护照、军官证或户口本复印件）；<br>\r\n被保险人出院小结、门诊病历、疾病诊断证明书、处方、相关检验报告等；<br>\r\n被保险人医疗费原始收据复印件及费用明细；与确认保险事故性质和原因有关的其他证明材料；<br>\r\n团体保险理赔申请书<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "81",
+          "infoId" : "81",
+          "subId" : 6,
+          "title" : "非门诊险_医疗费用报销理赔申请",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>医疗费用报销理赔申请材料包括：<br>\r\n保险单或保险凭证（保险合同的第一页复印件）；<br>\r\n被保险人身份证明（身份证、护照、军官证或户口本复印件）；<br>\r\n被保险人出院小结、门诊病历、疾病诊断证明书、处方、相关检验报告等；<br>\r\n被保险人医疗费原始收据、社保结算单及费用明细；与确认保险事故性质和原因有关的其他证明材料；<br>\r\n团体保险理赔申请书。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "82",
+          "infoId" : "82",
+          "subId" : 6,
+          "title" : "非门诊险_重大疾病理赔申请",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>重大疾病理赔申请材料包括：<br>\r\n保险单或保险凭证（保险合同的第一页复印件）；<br>\r\n被保险人身份证明（身份证、护照、军官证或户口本复印件）；<br>\r\n被保险人出院小结、门诊病历、疾病诊断证明书、处方、相关病理检验报告等；<br>\r\n与确认保险事故性质和原因有关的其他证明材料；<br>\r\n团体保险理赔申请书。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "83",
+          "infoId" : "83",
+          "subId" : 6,
+          "title" : "非门诊险_残疾理赔申请",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>残疾理赔申请材料包括：<br>\r\n保险单或保险凭证（保险合同的第一页复印件）；<br>\r\n被保险人身份证明（身份证、护照、军官证或户口本复印件）；<br>\r\n被保险人残疾程度鉴定书；<br>\r\n与确认保险事故性质和原因有关的其他证明材料；<br>\r\n团体保险理赔申请书。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "84",
+          "infoId" : "84",
+          "subId" : 6,
+          "title" : "非门诊险_身故理赔申请",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>身故理赔申请材料包括：<br>\r\n保险单或保险凭证（保险合同的第一页复印件）；<br>\r\n受益人身份证明（身份证、护照、军官证或户口本复印件）；<br>\r\n被保险人死亡证明书；<br>\r\n被保险人宣告死亡证明文件；<br>\r\n被保险人户籍注销证明；<br>\r\n与确认保险事故性质和原因有关的其他证明材料；<br>\r\n团体保险理赔申请书。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        } ]
+      } ],
+      "tableList" : null
+    }, {
+      "baseId" : 5,
+      "baseName" : "港澳问题",
+      "baseImg" : null,
+      "subList" : null,
+      "tableList" : [ {
+        "tableName" : "太寿香港",
+        "tableId" : 1,
+        "infoList" : null,
+        "subList" : [ {
+          "subId" : 14,
+          "tableId" : null,
+          "subName" : "保單服務指南",
+          "infoList" : [ {
+            "id" : "20190326180746602DCE323887A4F4CD0A40EDDD2B3C3489D",
+            "infoId" : "20190326180746602DCE323887A4F4CD0A40EDDD2B3C3489D",
+            "subId" : 14,
+            "title" : "受益人變更",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201903/26/99ab22de158f4b35a2d5c30148ce2683.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074672784D6399ADBAE437F8E2ED61389344B90",
+            "infoId" : "2019032618074672784D6399ADBAE437F8E2ED61389344B90",
+            "subId" : 14,
+            "title" : "繳費方式變更",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201903/26/c975be2363ec48eb880afc70d2fba8d4.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261807468538DAB8D6C432E4D2387809EE3812D1595",
+            "infoId" : "201903261807468538DAB8D6C432E4D2387809EE3812D1595",
+            "subId" : 14,
+            "title" : "繳費頻率變更",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201903/26/9f3b4e00995c42acb79e11cce0c4dac0.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326180746224E085184238D347EB9C93D4D973493ED8",
+            "infoId" : "20190326180746224E085184238D347EB9C93D4D973493ED8",
+            "subId" : 14,
+            "title" : "受理指引",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/10/7f0f770149244282a781d6b461376871.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326180746352CEB6A83C5A324BC89B67557C37E5BC99",
+            "infoId" : "20190326180746352CEB6A83C5A324BC89B67557C37E5BC99",
+            "subId" : 14,
+            "title" : "個人資料變更",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201903/26/d92854ec2c5140a8bfd65ccc8b2034bb.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074647867EB24A0390F4B3CB89381F7ACDF0F6F",
+            "infoId" : "2019032618074647867EB24A0390F4B3CB89381F7ACDF0F6F",
+            "subId" : 14,
+            "title" : "聯絡資料變更",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201903/26/12e2f34970e34ea1837741aea1c12464.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 15,
+          "tableId" : null,
+          "subName" : "聯繫我們",
+          "infoList" : [ {
+            "id" : "201903261807460991DAB83BF62784D7AB388F4BE2EC72A20",
+            "infoId" : "201903261807460991DAB83BF62784D7AB388F4BE2EC72A20",
+            "subId" : 15,
+            "title" : "太寿香港聯繫方式",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>地址：香港銅鑼灣新寧道8號中國太平大廈7樓1期<br>服務時間：星期一至五上午9時至下午5時30分(午膳時間照常服務)，星期六、日及公眾假期休息<br>傳真：(852) 2853 6323<br>客戶服務熱線：(852) 800 961 589 或(86) 95589(轉9 太平人壽(香港))<br>客戶服務電郵：cs@tplhk.cntaiping.com<br>網站：http://tplhk.cntaiping.com/</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 16,
+          "tableId" : null,
+          "subName" : "表格下載",
+          "infoList" : [ {
+            "id" : "202011131955497292c44fc9c25a711eba41552540289afea",
+            "infoId" : "202011131955497292c44fc9c25a711eba41552540289afea",
+            "subId" : 16,
+            "title" : "常行指示設立申請書 - 預付保費利息",
+            "fileName" : "Application For Standing Instructions(Prepaid Premium Interest).pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "20190326180749500235039486DA34BF3940C7239E524C96F",
+            "infoId" : "20190326180749500235039486DA34BF3940C7239E524C96F",
+            "subId" : 16,
+            "title" : "醫療賠償申請表",
+            "fileName" : "Medical Claim Form apply.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074962665AADDBF0D424C58B4DB7061AF734E32",
+            "infoId" : "2019032618074962665AADDBF0D424C58B4DB7061AF734E32",
+            "subId" : 16,
+            "title" : "醫療預先預授權服務申請表",
+            "fileName" : "Medical Claim Form service apply.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "20190326180749753DA41DEA607CC4C138520F22976FC30BE",
+            "infoId" : "20190326180749753DA41DEA607CC4C138520F22976FC30BE",
+            "subId" : 16,
+            "title" : "更改保單申請書",
+            "fileName" : "TPLHK777_Request for change of Policy Particulars_draft.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074988407C3F98ED50D47129CBF1E597091F4C0",
+            "infoId" : "2019032618074988407C3F98ED50D47129CBF1E597091F4C0",
+            "subId" : 16,
+            "title" : "更改個人資料/簽名/聯絡資料申請書",
+            "fileName" : "TPLHK795_Change of Personal Information_Signature_Contact Information Application Form_FPOS7951117.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "20190326180750021B472907186FE480686DF11B72E60A9A1",
+            "infoId" : "20190326180750021B472907186FE480686DF11B72E60A9A1",
+            "subId" : 16,
+            "title" : "更改保單受益人 / 擁有權申請書",
+            "fileName" : "TPLHK798_Change of Beneficiary_Policy Ownership Application_Form.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "2019032618075015090D0C296C71B4312B042435F7BCC6BC2",
+            "infoId" : "2019032618075015090D0C296C71B4312B042435F7BCC6BC2",
+            "subId" : 16,
+            "title" : "個人資料收集聲明",
+            "fileName" : "Personal Information Collection Statement.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "201903261807502778AA3639C0D07499B820C8BB4543DD81B",
+            "infoId" : "201903261807502778AA3639C0D07499B820C8BB4543DD81B",
+            "subId" : 16,
+            "title" : "死亡賠償申請-保單遺失聲明",
+            "fileName" : "Declaration of Policy Lost.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "201903261807485991CCFA04CA84249ABAF8CD53C6DE0D3B4",
+            "infoId" : "201903261807485991CCFA04CA84249ABAF8CD53C6DE0D3B4",
+            "subId" : 16,
+            "title" : "危疾賠償申請表第二部份(中風)",
+            "fileName" : "Critical Illness Claim Form - Part II Stroke.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074872398F97F7425D5480E8192B879FABED94A",
+            "infoId" : "2019032618074872398F97F7425D5480E8192B879FABED94A",
+            "subId" : 16,
+            "title" : "死亡賠償申請表第一部分（人壽）",
+            "fileName" : "Death Claim Form - Part I (Individual).pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "201903261807488476CC5672EEBF54330B967674878036D07",
+            "infoId" : "201903261807488476CC5672EEBF54330B967674878036D07",
+            "subId" : 16,
+            "title" : "死亡賠償申請表第二部分",
+            "fileName" : "Death Claim Form - Part 2 (Individual).pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "20190326180748971AE6995E8B8E14B599628C80A5F23ABC2",
+            "infoId" : "20190326180748971AE6995E8B8E14B599628C80A5F23ABC2",
+            "subId" : 16,
+            "title" : "直接付款授權書",
+            "fileName" : "DIRECT DEBIT AUTHORISATION FOR BANK ACCOUNT.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074909964B571A0A43747A38BE3DB15BD1F63CA",
+            "infoId" : "2019032618074909964B571A0A43747A38BE3DB15BD1F63CA",
+            "subId" : 16,
+            "title" : "傷殘賠償申請表第二部分",
+            "fileName" : "Disability Claim Form Disability2.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "20190326180749234B203892CE8BA481A889ED26564967CC0",
+            "infoId" : "20190326180749234B203892CE8BA481A889ED26564967CC0",
+            "subId" : 16,
+            "title" : "傷殘賠償申請表第一部份（人壽）",
+            "fileName" : "Disability Claim Form life.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "20190326180749369C6A5117EE8044495B389E847238407FF",
+            "infoId" : "20190326180749369C6A5117EE8044495B389E847238407FF",
+            "subId" : 16,
+            "title" : "傷殘賠償申請表第一部份（團體）",
+            "fileName" : "Disability Claim Form team.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074754705C2497763634E52B4779F30095E0AE5",
+            "infoId" : "2019032618074754705C2497763634E52B4779F30095E0AE5",
+            "subId" : 16,
+            "title" : "危疾賠償申請表第一部份(團體)",
+            "fileName" : "Critical Illness Claim Form - Part I (Group).pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "20190326180747673934EE97C92EC4180A582A2CE521A8800",
+            "infoId" : "20190326180747673934EE97C92EC4180A582A2CE521A8800",
+            "subId" : 16,
+            "title" : "危疾賠償申請表第一部份(人壽)",
+            "fileName" : "Critical Illness Claim Form - Part I (Individual).pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "20190326180747799900B35810B464D538C85C1AD876323BA",
+            "infoId" : "20190326180747799900B35810B464D538C85C1AD876323BA",
+            "subId" : 16,
+            "title" : "危疾賠償申請表第二部份(癌症)",
+            "fileName" : "Critical Illness Claim Form - Part II Cancer.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "201903261807479267C3A5DCBD5674492A41DD9F8AA78CA50",
+            "infoId" : "201903261807479267C3A5DCBD5674492A41DD9F8AA78CA50",
+            "subId" : 16,
+            "title" : "危疾賠償申請表第二部份(原位癌早期惡性腫瘤)",
+            "fileName" : "Critical Illness Claim Form - Part II CIS or Early Stage Malignancy.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "20190326180748057254DE6D3F8B549119B574929F001AD9A",
+            "infoId" : "20190326180748057254DE6D3F8B549119B574929F001AD9A",
+            "subId" : 16,
+            "title" : "危疾賠償申請表第二部份(冠狀動脈血管成形術)",
+            "fileName" : "Critical Illness Claim Form - Part II Coronary Angioplasty.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "201903261807481839E34BE4138A04453AE7710EE069F712B",
+            "infoId" : "201903261807481839E34BE4138A04453AE7710EE069F712B",
+            "subId" : 16,
+            "title" : "危疾賠償申請表第二部份(一般)",
+            "fileName" : "Critical Illness Claim Form - Part II General.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074833537CCCB4468DB4507B937C6FAC8E5FD01",
+            "infoId" : "2019032618074833537CCCB4468DB4507B937C6FAC8E5FD01",
+            "subId" : 16,
+            "title" : "危疾賠償申請表第二部份(心臟病)",
+            "fileName" : "Critical Illness Claim Form - Part II Heart Attack.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074846911F799D20A0B41D4905BF83C19F430D4",
+            "infoId" : "2019032618074846911F799D20A0B41D4905BF83C19F430D4",
+            "subId" : 16,
+            "title" : "危疾賠償申請表第二部份(心瓣更換術)",
+            "fileName" : "Critical Illness Claim Form - Part II Heart Valve Replacement.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 17,
+          "tableId" : null,
+          "subName" : "理賠索償指南",
+          "infoList" : [ {
+            "id" : "201903261807471201C9FF3917261489EA36F08B15345965E",
+            "infoId" : "201903261807471201C9FF3917261489EA36F08B15345965E",
+            "subId" : 17,
+            "title" : "身故賠償(Deathclaim)",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201903/26/86da23ca765a4a58accc10fd36736a5c.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261807471201C9FF3917261489EA36F08B1534596QQ",
+            "infoId" : "201903261807471201C9FF3917261489EA36F08B1534596QQ",
+            "subId" : 17,
+            "title" : "受理指引",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201903/26/db82e327d1c740e5bd00d709266d2109.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074724667186F75057E49A0AD393B081178C968",
+            "infoId" : "2019032618074724667186F75057E49A0AD393B081178C968",
+            "subId" : 17,
+            "title" : "嚴重疾病賠償(Criticalillnessclaim)",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>危疾索償檔要求(包括主要危疾保障、早期危疾保障及兒童疾病等)<br>a.《危疾賠償申請表》第一部份(由受保人/索償人完全填寫及簽署，若索償人非保單中的要保人/受保人，煩請遞交索償人與受保人之關係證明。)<br>b.《危疾賠償申請表》第二部份(由受保人之主診醫生填寫及簽署，請按疾病種類索取相關表格)<br>c.受保人之身分證(需要核實)<br>d.出院總結/列有診斷證明之病假證明書<br>e.病理檢驗報告<br>f.受保人曾接受之檢查報告(例如：化驗、超聲波、X-光、電腦掃瞄、磁力共振、心電圖、心肌酵素檢查、組織病理學檢查報告等)<br>g.受保人曾接受之治療紀錄(例如：醫生轉介信、物理治療報告、職業治療報告等)</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261807473726C1F54BA78FF4BDA8F8A41EC1BB491B7",
+            "infoId" : "201903261807473726C1F54BA78FF4BDA8F8A41EC1BB491B7",
+            "subId" : 17,
+            "title" : "意外斷肢及／或永久完全殘廢賠償(AccidentalDismemberment&PermanentTotalDisabilityClaim)",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>意外傷殘索償檔要求<br>a.《傷殘賠償申請表》第一部份(由受保人/索償人完全填寫及簽署，若索償人非保單中的要保人/受保人，煩請遞交索償人與受保人之關係證明。)；及《傷殘賠償申請表》第二部份(由主診醫生填寫及簽署)。<br>b.受保人之身分證(需要核實)<br>c.出院總結/列有診斷證明之病假證明書<br>d.受保人曾接受之檢查報告(例如：化驗、超聲波、X-光、電腦掃瞄、磁力共振、心電圖、病理檢驗報告等)<br>e.受保人曾接受之治療紀錄(例如：醫生轉介信、物理治療報告、職業治療報告等)<br>f.警方口供紙／員警報告<br>g.意外事故之報紙／新聞紀錄<br>h.勞保醫療判傷紀錄(表格五或七)<br>i.體檢評估(本公司會因應個案，保留權利要求受保人到本公司指定的醫務所進行評估檢查)</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 18,
+          "tableId" : null,
+          "subName" : "缴付方式",
+          "infoList" : [ {
+            "id" : "2019101603",
+            "infoId" : "2019101603",
+            "subId" : 18,
+            "title" : "「繳費易」(JET PAYMENT)",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><br>可透過銀通自動櫃員機選擇繳費服務繳交保單費用；<br>輸入中國太平人壽保險(香港)有限公司商戶編號: 【9350】<br>繳費易賬單號碼: 保單號碼的首12位數字， 英文字母則無須輸入<br>可選擇的「賬單類別」：<br>01 - 繳交保费<br>02 - 保單還款<br>03 - 保單更改或復效費用<br>只限以港元付款<br>客戶亦可透過部份支援網上理財的銀通會員銀行繳費，會員銀行名單請參閱: https://www.jetco.com.hk</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019101601",
+            "infoId" : "2019101601",
+            "subId" : 18,
+            "title" : "繳費靈",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>繳費靈音頻電話/互聯網/手機應用程式只適用於香港及已登記之用戶<br>登記賬單熱線:18013 (中文)/18011(Eng)<br>繳款熱線:18033 (中文)/18031(Eng)  (只限港元付款)<br>繳費靈網址:http://www.ppshk.com<br>中國太平人壽保險(香港)有限公司商戶編號:【6608】<br>繳費靈賬單號碼:保單號碼的首12位數字,英文字母則無須輸入<br>可選擇的「賬單類別」:<br>01 - 繳交保费<br>02 - 保單還款<br>03 - 保單更改或復效費用</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019101602",
+            "infoId" : "2019101602",
+            "subId" : 18,
+            "title" : "網上銀行繳費",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>可選擇由以下銀行提供的網上銀行繳費服務繳交保單費用:<br><u>指定信用卡繳費:</u><br>中國銀行(香港) |滙豐銀行 |恒生銀行 |渣打銀行(香港) |花旗銀行 |東亞銀行 |建設銀行(亞洲) |星展銀行(香港) |上海商業銀行 |交通銀行 |中信銀行(國際) |大新銀行 |富邦銀行 |創興銀行 |華僑永亨銀行 | AEON信貸財務(亞洲)<br><u>指定銀行戶口繳費:</u><br>渣打銀行(香港) |花旗銀行 |東亞銀行 | 建設銀行(亞洲) |星展銀行(香港) |上海商業銀行 |交通銀行 |中信銀行(國際) |大新銀行 |富邦銀行 |創興銀行 |華僑永亨銀行 |招商永隆銀行 |中國銀行(香港) <br>商戶名稱:中國太平人壽保險(香港)有限公司<br>賬單號碼:保單號碼的首12位數字， 英文字母則無須輸入<br>可選擇的「帳單類別」:<br>01 - 繳交保费<br>02 - 保單還款<br>03 - 保單更改或復效費用<br>付款人應與保單持有人相同</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326180745719640F015675104F06BFFDE8E9638E2ACB",
+            "infoId" : "20190326180745719640F015675104F06BFFDE8E9638E2ACB",
+            "subId" : 18,
+            "title" : "電匯",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>可透過電匯至以下銀行戶口:<br>收款銀行:中國銀行(香港)有限公司<br>銀行地址:香港中環花園道一號<br>收款人名字:中國太平人壽保險（香港）有限公司<br>收款人帳號:012-875-92-76935-5(美元匯款)<br>012-875-1-247966-7(港元匯款)<br>代號BKCHHKHH<br>所有匯款須提供保單號碼、保單持有人姓名及保費金額於電匯申請表內。當收到匯款後，本公司將直接把收據寄回給保單持有人。<br>匯款完成後，請向我們發送銀行的付款確認檔，以確認付款。<br>匯款人須繳付銀行之手續費。<br>付款人應與保單持有人相同。公司保留權利，拒絕確認付款和要求客戶提供資金來源的證明檔。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074559292EE67A9B65B4E9690BF74997D187F7B",
+            "infoId" : "2019032618074559292EE67A9B65B4E9690BF74997D187F7B",
+            "subId" : 18,
+            "title" : "銀行自動轉帳(只適用于繳付續期保費)",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>填妥「銀行戶口直接付款授權書」，可從保單持有人指定的香港銀行賬戶定期繳交續保保費。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326180745844AC0BF27F0CFC4BD69B069FBBA4D06906",
+            "infoId" : "20190326180745844AC0BF27F0CFC4BD69B069FBBA4D06906",
+            "subId" : 18,
+            "title" : "銀行繳費",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>付款人(保單持有人/受保人)的身分必需列印在直接存款收據的原件上<br>可轉帳至以下銀行戶口:<br>太平人壽(香港)之指定中國銀行戶口存入美元或港元,戶口號碼為:<br>美元:012-875-92-76935-5<br>港元:012-875-1-247966-7<br>銀行繳費的憑證(請附上保單編號)可電郵至cs@tplhk.cntaiping.com<br>付款人應與保單持有人相同。公司保留權利，拒絕確認付款和要求客戶提供資金來源的證明檔。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074597215B6A49B431F44118CF1C2976C338B46",
+            "infoId" : "2019032618074597215B6A49B431F44118CF1C2976C338B46",
+            "subId" : 18,
+            "title" : "親臨客戶服務中心",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>若以信用咭繳費，客戶需承擔有關手續費。<br>服務時間:星期一至五上午九時至下午五時半，星期日及公眾假期休息。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326180745338216C67352E1A4715A89D1CC1ACF005BF",
+            "infoId" : "20190326180745338216C67352E1A4715A89D1CC1ACF005BF",
+            "subId" : 18,
+            "title" : "郵寄支票/本票",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>抬頭寫上「中國太平人壽保險(香港)有限公司」及請於支票背面寫上保單號碼及保險仲介人編號。<br>只接受保單持有人或受保人的支票。<br>支票不接受期票<br>本票需要遞交由香港銀行發出之發票證明，以確認付款人與保單持有人是同一人。<br>寄回本公司的客戶服務中心「香港銅鑼灣新寧道8號中國太平大廈1期7樓」。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618074546485F62554A5144BF08506D939965BF9C4",
+            "infoId" : "2019032618074546485F62554A5144BF08506D939965BF9C4",
+            "subId" : 18,
+            "title" : "電子支票",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>不能掃描紙張支票作電子支票使用。<br>不能列印電子支票用作入票用途。<br>請以電郵發送電子支票(PDF檔案格式)至echeque@tplhk.cntaiping.com。電郵需要注明保單號碼及保費到期日。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "13",
+            "infoId" : "13",
+            "subId" : 18,
+            "title" : "「7-Eleven」便利店繳付續期保費",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><br> 客戶只需攜同印有7-Eleven專用二維碼的繳費通知書或繳費提醒通知書，便可於「7-Eleven」便利店以現金繳付保費。\r\n<br>「7-Eleven」僅接受港幣現金付款。\r\n<br>「7-Eleven」專用二維碼只會印於應繳金額不超過5,000 港元或港元等值的繳費通知書及繳費提醒通知書上。\r\n<br>「7-Eleven」現金繳費專用二維碼於保費到期日後第61 天開始失效。\r\n<br>  透過「7-Eleven」繳費，我們將不會另發收據，請保留「7-Eleven」之收據作付款記錄。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        } ]
+      }, {
+        "tableName" : "太寿澳门",
+        "tableId" : 2,
+        "infoList" : null,
+        "subList" : [ {
+          "subId" : 19,
+          "tableId" : null,
+          "subName" : "火險",
+          "infoList" : [ {
+            "id" : "2019032618420193984C93FF979A84B87A6BBC92236C596EC",
+            "infoId" : "2019032618420193984C93FF979A84B87A6BBC92236C596EC",
+            "subId" : 19,
+            "title" : "可以投保的財產",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>受保各項不同類別的財產，包括商業資產如店鋪、倉庫、廠房、機器及存貨（原料、製成品及半製成品）；以及住宅樓宇、寫字樓、家居財物（裝修家俬和私人財物）等。注：以上物產的所有人、共有人、託管人、債權人或有利害關係的人，均可向保險公司投保，但無合法權益者，不得投保。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618420206062506C39DB884F41925E243530B8F4EE",
+            "infoId" : "2019032618420206062506C39DB884F41925E243530B8F4EE",
+            "subId" : 19,
+            "title" : "保障範圍",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>保障由下列意外事故直接造成的財物損失：<br>意外失火肇災<br>鄰居失火波及<br>雷電燒毀<br>因救火而造成的水漬及煙熏<br>消防員在施救時無可避免造成的物質損失<br>保戶如想在上述的基本保障範圍以外，得到額外保障，可選擇附加下列各保險：<br>爆炸<br>自燃<br>山林失火<br>地震<br>颱風<br>罷工暴動（可兼附加惡意破壞）<br>飛機撞毀<br>交通工具的碰撞<br>動滅火花灑爆漏<br>水箱或水管爆裂或溢瀉<br><br>一般不保的財產<br>金銀、珠寶、鑽石、首飾。<br>古玩或藝術作品。<br>文稿、圖樣、圖案、模型。<br>股票、證券、債券、各種檔、郵票、印花稅票、錢幣、紙幣、支票、帳簿、商業簿冊或電腦系統記錄。<br>注：上列財產，如需要投保，應先逐類列明價值，經特別協議，可能考慮承保。<br></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184202182CA8433B69F0D4DBFA4C5CD98E44A6878",
+            "infoId" : "20190326184202182CA8433B69F0D4DBFA4C5CD98E44A6878",
+            "subId" : 19,
+            "title" : "投保手續",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>投保人要保的財產可按照投保單所列的專案，予以逐項填寫清楚。<br>火災賠償是根據所保財產失火時的實際市值計算的。投保時應估計現值，十足投保，多保了浪費保費，得不到多餘的賠償，少保了則少保之數由保戶自保須按比例攤算。<br>權利轉讓、抵押、分期付款、遷移、改訂門牌、增減保額或所在房屋的使用性質有變更時，均請書面通知保險公司，俾能出批單保障投保人之權益。<br>託管、托售或代客加工、包裝的貨物均請在投保時注明。<br></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184202301A300BE8AEE0E460F9BE225C4CF36B799",
+            "infoId" : "20190326184202301A300BE8AEE0E460F9BE225C4CF36B799",
+            "subId" : 19,
+            "title" : "火災後索賠手續",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>若火災不幸發生，請立即通知保險公司，在保險公司代表或公證行人員未到達前，勿將被焚對象搬動，請保持受損場所的現狀。<br>在15天內以書面開具損失清單，提出要求賠償數額連同各項單據，送交保險公司或受理勘估損失的公證行。<br>聲明有多少其他保險公司共保，以便統計各公司應賠償數目。<br>注意事項：本保險並不包括由“恐怖行動”所造成的直接或間接損失。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 20,
+          "tableId" : null,
+          "subName" : "雇員賠償險",
+          "infoList" : [ {
+            "id" : "20190326184203544935EB06180E44E3FBD450CE630AA92DB",
+            "infoId" : "20190326184203544935EB06180E44E3FBD450CE630AA92DB",
+            "subId" : 20,
+            "title" : "賠償限額",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>醫療費用–每名工作意外或職業病受害之勞工，最高可獲得MOP3,000,000.00醫療費用賠償。<br>在本澳仁伯爵綜合醫院、鏡湖醫院、科大醫院、泰福馬瀧日間醫院、銀葵醫院及衛生中心以外接受診療：每日澳門幣300元，此款額包括診療中之診斷及治療上之開支。<br>永久傷殘–因工作意外或職業病導致完全永久喪失工作能力或謀生能力之受害勞工，最高賠償MOP1,250,000.00，最低賠償MOP375,000.00。<br>死亡賠償–因工作意外或職業病引致死亡，最高賠償MOP1,000,000.00最低賠償MOP300,000.00。<br>喪葬費–最高賠償MOP16,940.00，最低賠償MOP4,356.00。<br>假體及矯形器具–因工作意外須要安裝假體或矯形器具之受害勞工，獲得賠償限額為：<br>提供及首次安裝費用之限額為MOP23,600.00。<br>自首次安裝起10年內之維修、更新及透過手術安裝之費用限額為MOP71,000.00。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261842036635D04171A397745C8A1AC882F6ADA04AA",
+            "infoId" : "201903261842036635D04171A397745C8A1AC882F6ADA04AA",
+            "subId" : 20,
+            "title" : "索賠手續",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>發生工作意外24小時內填妥並遞交索賠表予保險公司；<br>遞交受傷雇員由本澳註冊醫生開出之M/7醫藥費單據，工傷休假證明等，但必須注明所接受治療之受傷部位(如有傷殘，則須連同醫療判傷證明書)，送交保險公司；<br>若受傷雇員傷癒復工，必須遞交由本澳註冊醫生開出之康復證明書；<br>遞交在本澳社會保障基金供款之雇員名單；<br>雇傭合約副本及受傷雇員有效之身份證明副本；<br>雇員最近3個月的薪金證明和出勤記錄(副本)；<br>因應個案的性質可能須提供其他檔。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618420277795CE84A3F7244DA3B4A41D9AB60BA345",
+            "infoId" : "2019032618420277795CE84A3F7244DA3B4A41D9AB60BA345",
+            "subId" : 20,
+            "title" : "保障範圍",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>在任何行業提供服務之勞工，因發生工作意外或感染職業病而引致損害者，可享有彌補權。<br>工作意外–指在工作地點及工作時間內發生且直接或間接造成身體損害、機能失調或疾病，並由此而引致死亡、暫時或長期無工作能力或謀生能力的意外。<br>職業病–指勞工完全因在一段時間內處於其曾提供或現正提供服務場所中存有之工業危險、職業活動危險或環境危險而患上之疾病。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184202897AFACD23A02A34440A997A88A356EAB47",
+            "infoId" : "20190326184202897AFACD23A02A34440A997A88A356EAB47",
+            "subId" : 20,
+            "title" : "不受保險保障者",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>保險合同不適用於投保人所遭受之意外。<br>被保險人之配偶、子女(包括收養者)，其他直系血親或姻親、或直至第三親等之旁系血親或姻親，任何公司之管理人或經理等，僅在保險單內特別列明其姓名者，方視為在保險單保障之範圍內。<br>上款之規定適用於在公司內工作之股東。<br>為第二款規定之效力，根據(民法典)第二千零二十條之規定以事實婚與被保險人一起生活者等同于配偶。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184203019C4FF34FA7A12478E8FE3AD831FE8CD97",
+            "infoId" : "20190326184203019C4FF34FA7A12478E8FE3AD831FE8CD97",
+            "subId" : 20,
+            "title" : "特定除外事項",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>除法例規定之除外事項外，本保險單在任何情況下不適用於下列者：<br>形成疝囊之疝氣；<br>呼吸系統職業病；<br>為使遇難人上岸而泊港所引致之費用。<br>對於因罷工及暴動、公共秩序之變更及其他類似行為，恐怖或破壞行為、起義、革命、內戰、侵略、戰爭(不論宣戰與否)、敵對行為所引致之工作意外、以及因直接或間接由上指事件而引致之戰爭行為造成之工作意外，保險人亦概不負責該等工作意外之彌補。<br>對於投保人未遵守法律之規定而被處之任何罰款，保險人亦不負責。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184203140F58D27D3C2B34ACF87C61DB244D90C79",
+            "infoId" : "20190326184203140F58D27D3C2B34ACF87C61DB244D90C79",
+            "subId" : 20,
+            "title" : "申報之勞工報酬及人數",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>在為確定保險費之目的而申報之報酬低於實際報酬之情況下，保險人僅對申報之報酬負責，在此情況下，投保人須負責有關之差額，以及按比例負責本法例所規定之費用。<br>如受保險單保障之勞工數目，少於在意外或確定及明確診斷疾病之當日之提供服務之勞工數目，由投保人負責證明遇難人為保險合同保障者。<br>投保人應將有關保險合同上所涉及報酬或勞工數目之修改，於每半年結束後之三十日內或在與保險人雙方協議之期間後三十日內通知保險人，上指修改亦在合同之範圍內，但保險人有權根據新接獲之資料立即調整保險費。<br>投保人應為所屬雇員按各職別、人數、其實際工資及其他固定性支付等投保。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184203260A2741203613F4023996CFABF37757AB5",
+            "infoId" : "20190326184203260A2741203613F4023996CFABF37757AB5",
+            "subId" : 20,
+            "title" : "保險費率",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>保險費率按每一勞工主要從事之職務而訂定。<br>如一名勞工從事多項職務，則適用各職務中保險費率最高者。<br>同樣，如多名勞工在同一地點進行不同活動，且不能區分何人從事何一項活動，對該等全部勞工則適用各活動中保險費率最高者。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618420342303B0FDA198994F61A614F127839D9C21",
+            "infoId" : "2019032618420342303B0FDA198994F61A614F127839D9C21",
+            "subId" : 20,
+            "title" : "無災禍優惠",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/03/fc5f5c773b3f4d0f82e2e1e170e01c5a.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 21,
+          "tableId" : null,
+          "subName" : "理賠指引",
+          "infoList" : [ {
+            "id" : "201903261842075392D5F7438DBB94BD2871E4EA701D6CA53",
+            "infoId" : "201903261842075392D5F7438DBB94BD2871E4EA701D6CA53",
+            "subId" : 21,
+            "title" : "聯繫方式",
+            "fileName" : "RC-CRC",
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>中國太平保險(澳門)股份有限公司<br>CHINATAIPINGINSURANCE(MACAU)CO.，LTD.<br>客服熱線Hotline:(853)28785578<br>保險服務：澳門新口岸宋玉生廣場392號中航大廈地下C鋪<br>InsuranceEnquiry:AlamedaDr.CarlosD'Assumpcao，No.392，RC-CRC，EdificioCNAC，Macau<br>傳真Fax:(853)28787216(車險Motor)／28752534(代理Agency)<br>理賠服務：澳門新口岸宋玉生廣場398號中航大廈10樓<br>ClaimsServices:AlamedaDr.CarlosD'Assumpcao，No.398，EdificioCNAC，10Andar，Macau<br><br>傳真Fax:(853)28755604(理賠claims)／28787218(業務Business)<br>電郵Email:info@mo.cntaiping.com<br>網站Website:www.mo.cntaiping.com</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184206934E396F91154F9438C8AFDEC94619E5ECE",
+            "infoId" : "20190326184206934E396F91154F9438C8AFDEC94619E5ECE",
+            "subId" : 21,
+            "title" : "火險",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>若火災不幸發生，請立即通知保險公司，在保險公司代表或公證行人員未到達前，勿將被焚對象搬動，請保持受損場所的現狀<br>在15天內以書面開具損失清單，提出要求賠償數額連同各項單據，送交保險公司或受理勘估損失的公證行<br>聲明有多少其他保險公司共保，以便統計各公司應賠償數目</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184207055FB87161842924BD6BD63070B883AFE9E",
+            "infoId" : "20190326184207055FB87161842924BD6BD63070B883AFE9E",
+            "subId" : 21,
+            "title" : "汽車保險",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>倘不幸發生事故，投保人必須：<br>即時向當局報案申述事實真相，並作應有的追究<br>在保險公司或公證行人員辦妥檢驗工作前，請保持被保車輛受損當時的狀況，並應採取適當的措施，以減少或不加重損害程度<br>須在事故後八日內親臨本公司辦理手續，並請攜同以下檔正本：<br>車契（或“轉名紙”）、登記折<br>投保人身份證明文件、駕駛執照及保險卡<br>供款合約（倘涉分期付款購車者）<br>由當局簽發的任何有關文件（例如：罰款收據、報案收據等）<br>在接獲任何索償書、勒令或訴訟通知後，應立即遞交予保險公司<br>請儘快聯絡由本公司指定的修理廠提供修理報價單</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261842071754A8419645E6442D3B220B6D441990C73",
+            "infoId" : "201903261842071754A8419645E6442D3B220B6D441990C73",
+            "subId" : 21,
+            "title" : "雇員賠償險",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>在24小時內填妥並遞交索賠表予本公司；<br>遞交受傷雇員由本澳註冊醫生開出M/7醫藥費單據，工傷休假證明等，但必須注明所接受治療之受傷部位，(如有傷殘，則須連同醫療判傷證明書)送交保險公司；<br>若受傷雇員傷癒復工，必須遞交由本澳註冊醫生開出之康復證明書；<br>遞交在本澳社會保障基金供款之雇員名單；<br>雇傭合約副本及受傷雇員有效之身份證明副本；<br>雇員最近3個月的薪金證明和出勤記錄（副本）；<br>因應個案的性質可能須提供其他檔。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618420729787D1E85BC4294B6B88398FF4CF0AF083",
+            "infoId" : "2019032618420729787D1E85BC4294B6B88398FF4CF0AF083",
+            "subId" : 21,
+            "title" : "運輸保險",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>所保貨物在運抵保險單所載之目的地後，保戶或收貨人必須及時提貨並做到下列各點：<br>發現貨物受到損失，須立即通知保單上指定的查驗人進行查驗並取得其查驗報告書。如該項損失與承運人的責任有關，則應按下列第3條辦理<br>如貨物整件遺失，必須立即向承運人或港口當局索取證明，並以書面提出賠償要求<br>提貨時如貨物受損明顯可見，必須立即要求承運人進行查驗並向其提出賠償要求<br>收貨人于提貨時如懷疑貨物有損，則不能簽具潔淨收據（CLEANRECEIPT）給船方<br>如提貨時貨物受損並不明顯可見，則須於收貨後3天內，將情況書面通知船方，並提出賠償要求<br>保戶向本公司要求索賠時，為了使賠案能迅速審理解決，保戶必須提供下列各項單證<br>保險單正本ORIGINALPOLICY<br>提單BILLOFLADING<br>發票INVOICE<br>裝箱單PACKINGLIST<br>貨損證明DOCUMENTARYEVIDENCEOFLOSS/DAMAGE<br>貨損檢驗報告SURVEYREPORT<br>如涉及第三者責任，還須提供向第三者追償責任的有關函件及其他必要單證或文件</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184207419AAEA779BA04E44DCA4CB0820BE397F1A",
+            "infoId" : "20190326184207419AAEA779BA04E44DCA4CB0820BE397F1A",
+            "subId" : 21,
+            "title" : "旅遊保險",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>如發現物品在航空公司或其他運輸機構保管下損毀時，必須立即通知有關公司<br>個人行李或個人現金遭受損失時，必須在24小時內向當地警方報案<br>如遇損失或意外，投保人應立即通知保險公司，並以書面提出索償，連同有關單據或文件，送交保險公司處理</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 22,
+          "tableId" : null,
+          "subName" : "旅遊保險",
+          "infoList" : [ {
+            "id" : "2019032618420572545FE9FCEA8A94116B31B643D0B1A9AAA",
+            "infoId" : "2019032618420572545FE9FCEA8A94116B31B643D0B1A9AAA",
+            "subId" : 22,
+            "title" : "保障特點",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>無自負額；<br>全面醫療保障高達MOP1,000,000；<br>人身意外保險高達MOP3,000,000；<br>跌打覆診費用保障；<br>多項運動保障，無需額外保費。運動包括：激流、快艇、水上電單車、滑雪及水肺潛水；<br>自動延長保障期，如因「行程延誤」保障內提及的事故導致延遲返澳日期，可獲免費自動延長保障期，最長可達10天；<br>免費24小時全球緊急支援服務<br>因恐怖活動引致之行程延誤</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261842058474B068762EB4842078600C7989FAF8A75",
+            "infoId" : "201903261842058474B068762EB4842078600C7989FAF8A75",
+            "subId" : 22,
+            "title" : "保障範圍",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/03/0e0ccd621b094bc691283d268f405f9a.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184205967D890FB132914426FA2F899914AEDDEF6",
+            "infoId" : "20190326184205967D890FB132914426FA2F899914AEDDEF6",
+            "subId" : 22,
+            "title" : "保障簡介",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>一、人身意外<br>意外身故100%賠償;<br>因意外事故而導致雙目完全失明、或喪失雙肢、或一目失明及喪失一肢、或一目失明及一肢永久完全殘廢100%賠償;<br>因意外事故而導致一目完全失明、或喪失一肢、或一肢永久完全殘廢，賠償金額為人身意外保障額50%;<br>因意外事故而導致身體永久完全殘廢及喪失工作能力100%賠償；<br>若乘搭交通工具導致永久完全殘廢最高賠償金額為MOP3,000,000；<br>若旅途中因意外不幸死亡，其至親家屬可即時獲發一筆MOP50,000「撫恤金」以應急時之需；<br>注:16歲以下兒童上述第1至5點最高賠償金額為MOP250,000；71至75歲人士只接受投保基本計畫；<br>二、醫藥及有關費用—圖片+文字<br>在旅途中，因患病或意外受傷，可獲得高達澳門元1,000,000元之醫療費用保障。保障包括:在旅途中因患病或意外受傷如接受執業醫生醫療、診斷、住院服務等費用及投保人返澳後三個月內在本澳發生之覆診費用，最高可達澳門元75,000元。<br>三、住院津貼<br>在旅途中，因患病或意外受傷須入住醫院治療超過24小時，每日可獲得澳門元500元之住院津貼，最高可達澳門元5,000元。<br>四、個人行李<br>在旅途中，行李因被盜、意外遺失或損毀、可獲得最高賠償額澳門元10,000(每件或每套物件最高賠償額為澳門元2,500元)。<br>五、行李延誤<br>在旅途中，行李因旅行社，托運公司、航空公司傳遞錯誤或延遲送達超過6小時或以上，若需要購置必需物品作應急之用，可獲最高賠償額澳門元500元。<br>六、個人錢財及旅遊證件遺失<br>在旅途中，因偷竊、爆竊、搶劫而導致現金、支票、旅行支票之損失；或因補領遺失之護照簽證、機票或其他旅遊檔所付出費用之損失、可獲最高賠償額澳門元3,000元，此項保障不適用於16歲或以下兒童。<br>七、個人責任<br>在旅途中，投保人應承擔第三者人身傷亡及財物損失之法律賠償責任，欣訟及其他有關費用，最高賠償額可達澳門元1,000,000元。此項保障不適用於16歲或以下兒童。<br>八、行程延誤<br>i)若因預先安排之飛機、輪船或火車發生罷工、工業行動、恐怖活動、惡劣天氣或機械故障導致誤時達6小時或以上，每6小時延誤賠償MOP200元，最高賠償額MOP1,000元。<br>ii)若因上述原因延誤達十小時以上而需取消原定交通安排並且更改行程所引致之未能索回的訂金及旅費損失，包括交通及住宿費用，最高賠償額為MOP10,000元。<br>(以上兩者只可擇一索償)。<br>九、損失訂金或取銷旅程<br>如投保人或其配偶、父母親、子女、家人或生意合夥人因死亡或生病而臨時取銷旅程，投保人可獲賠償已繳付但不能退回之訂金或其他已付出的費用，最高賠償額可達澳門元30,000元。<br>十、縮短旅程<br>在旅途中，投保人、與投保人同行人士、配偶、子女、家人或生意合夥人因死亡、受傷、生病或因投保人以乘客身份所乘之飛機被騎劫，導致必需縮短旅程，投保人可按比例獲得合理之不可退回未完成旅程費用損失之賠償、最高賠償額可達澳門元30,000元。<br>十一、嚴重燒傷<br>三級程度燒傷且燒傷部分達身體表面面積5%或以上，均可按保單受傷程度表列獲得賠償。<br>十二、家居爆竊<br>被保險人因旅遊期間，其住所在空置情況下遭暴力進入及爆竊而導致家居物品或個人財物失竊或被損。<br>十三、自動延長保期<br>如因「行程延誤」保障內提及的事故導致延遲返澳日期，可獲免費自動延長保障期，最長可達10天。<br>十四、免費24小時全球緊急支援服務<br>在旅途中，投保人遇到困難，只須致電(IPA)國際救援(亞洲)公司的緊急熱線中心，即可獲得醫療、法律等方面的資料及援助。熱線:(852)28511990</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261842060905A3B3C9016FA4718B5C6F5E39E6F5ADC",
+            "infoId" : "201903261842060905A3B3C9016FA4718B5C6F5E39E6F5ADC",
+            "subId" : 22,
+            "title" : "主要不保事項",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>（下列是主要不保事項摘要，詳情請參閱保險單）<br>各項保障共同之不保事項<br>旅行前已存在之任何病徵及症狀；<br>戰爭、暴亂、政府充公、徵收及國有化所引致之損失；<br>競賽、賽車、攀山、地壺勘探、綁緊跳、或以機師或機員之身份飛行、或其他危險性活動；以職業性參與之各項活動或運動項目；因高山反應引致之病症或水肺潛水超過三十公尺；<br>蓄意令自己受傷或生病、自殺、精神錯亂、酗酒或濫用藥物；<br>核能災難、化學及生物恐怖主義活動所造成的直接或間接損失；<br>已獲其他的保險賠償的損失；<br>受保人旅遊之目的為醫治疾病或受保人違反醫生勸告出外旅遊；<br>性病、愛滋病及與愛滋病有關連的疾病；<br>懷孕、難產、小產及分娩；<br>受保人在游游期間從事體力勞動工作；<br>年齡少於6個月及超過75歲之人士；<br>醫療及住院費用之不保事項<br>在本澳醫治之醫藥費用（除於保單內注明之保障）；<br>非必要之醫療，手術及單人病房或私家病房之額外費用；<br>旅行目的在於治病之醫療；<br>牙科病（除於保單內注明之保障）;<br>個人行李之不保事項<br>被海關當局扣留或沒收的損失；<br>郵票及易碎物品的損毀；<br>貨物及樣本；<br>自然損耗及磨損；<br>發現遺失時未有即時向有關之運輸公司報失；<br>遺失後24小時內沒有向警方報失；<br>個人錢財及旅遊證件遺失之不保事項<br>被海關當局扣留或沒收的損失；<br>損失後24小時內沒有向警方報失；<br>損失旅行支票未有即時向有關銀行報失。<br>個人責任之不保事項<br>雇主責任，合同責任或投保人家庭成員之責任；<br>屬於投保人或由投保人信託保管或支配之財物；<br>因敵意、惡意行為或非法活動引致之責任；<br>投保人經營之業務，職業責任或屬於投保人物業引致之責任；<br>由於使用車輛，飛機或船隻所引致之責任；<br>刑事訴訟之法律費用；<br>寵物引致之責任。<br>行程延誤之不保事項<br>在申請投保時已存在之罷工或工業行動；<br>因投保人遲到機場，碼頭或車站所導致；<br>損失訂金，取消旅程及縮短旅程之不保事項<br>因政府之法案、法令及有關方面的問題延誤、修改或不能提供預訂行程；<br>因經濟問題或不願成行.</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261842062123B8E922D0F41469DB09D55AC73F666ED",
+            "infoId" : "201903261842062123B8E922D0F41469DB09D55AC73F666ED",
+            "subId" : 22,
+            "title" : "索償須知",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>如發現物品在航空公司或其他運輸機構保管下損毀時，必須立即通知有關公司；<br>個人行李或個人現金遭受損失時，必須在24小時內向當地警方報案；<br>行程延誤索償時須提交航空公司/旅運當局發出之證明文件，詳述延誤事故發生的日期、時間及延誤持續時間，作為索償證明；<br>如遇損失或意外，投保人應立即通知保險公司，並以書面提出索償，連同有關單據或文件，送交保險公司處理；<br>投保人年齡限制:此項保險只為年齡在6個月至75歲(含75歲)的人士而設。保險期限:最長承保期限為6個月。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261842063336BE9FDD4197F4F0E9181E8A33FF90DC2",
+            "infoId" : "201903261842063336BE9FDD4197F4F0E9181E8A33FF90DC2",
+            "subId" : 22,
+            "title" : "保費表",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>投保幣別可選擇澳門元或港元，若投保港元，本簡介所述“澳門元MOP”即由“港元HKD” 替代。<br>基本計畫<br><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/03/e70a9d72795143dc81f22f37a155dcef.png\" style=\"width: 100%;\"><br>超級計畫<br><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/03/83a6efb46e524c80a729ea795e96650c.png\" style=\"width: 100%;\"><br>至尊計畫<br><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/03/795c3346f4f844caa8609ac294dde2a6.png\" style=\"width: 100%;\"><br>*定義：子女指年齡在6個月至16歲以下而與投保人同行的未婚子女。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 23,
+          "tableId" : null,
+          "subName" : "公共交通意外保險",
+          "infoList" : [ {
+            "id" : "201903261842068133077BC4E75974137991E8321F17BD453",
+            "infoId" : "201903261842068133077BC4E75974137991E8321F17BD453",
+            "subId" : 23,
+            "title" : "保障項目明細表",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/03/e4747660d5f647be99920831c9604893.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618420657421CF442DE94B446BA0C3E60230BA429A",
+            "infoId" : "2019032618420657421CF442DE94B446BA0C3E60230BA429A",
+            "subId" : 23,
+            "title" : "保障範圍表",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/03/acea3550f7af41a884f3db1ba5a02898.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184206695E2D07BE72D9F4EBDAB0B0E17D8E8D17C",
+            "infoId" : "20190326184206695E2D07BE72D9F4EBDAB0B0E17D8E8D17C",
+            "subId" : 23,
+            "title" : "計畫保費表",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/03/6013f844897344cf93fdfd88dd730eda.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261842068133077BC4E75974137991E8321F17BD452",
+            "infoId" : "201903261842068133077BC4E75974137991E8321F17BD452",
+            "subId" : 23,
+            "title" : "其他說明",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>主要不保事項<br>戰爭、類似戰爭的行動、內戰、叛變、罷工、暴動、或由於核子武器、核子游離輻射、核子燃料或其燃燒後產生的廢料所致輻射能的沾染。上述核子燃燒包括自發的核子分裂在內。<br>疾病、傳染病或非因意外事故而進行內外科治療手術而致的體殘、身故。<br>自加傷害、自殺、或因觸犯刑章的不法行為。<br>遭遇謀害。<br>打獵、攀山、滑雪、滑水、潛水、參加各種競賽、毆鬥、或因酒醉、服用藥物、神經錯亂。<br>從事軍警當執行職務時所致的，或空中飛航當不是作為旅客搭乘航空公司班機的航程內所致的。<br>額外燒傷保障及骨折保障；<br>全球性保障，全天候守護；<br>投保年齡限制<br>被保險人受保年齡為十八至七十歲<br>索償手續<br>如發生任何可引致索償的意外事故或損傷，必須於意外發生後三十天內以書面通知本公司索償表格可於下列網址下載：http://www.mo.cntaiping.com</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184206453E5635419710143F598DCAB524385B6E5",
+            "infoId" : "20190326184206453E5635419710143F598DCAB524385B6E5",
+            "subId" : 23,
+            "title" : "計畫特點",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>海陸空交通工具意外保障；<br>額外燒傷保障及骨折保障；<br>全球性保障，全天候守護；</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 24,
+          "tableId" : null,
+          "subName" : "人身意外險",
+          "infoList" : [ {
+            "id" : "20190326184204512AFB00E22F5F84FF880319578158CD3DE",
+            "infoId" : "20190326184204512AFB00E22F5F84FF880319578158CD3DE",
+            "subId" : 24,
+            "title" : "投保年齡",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>年齡在16至70歲的人仕均可投保。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184204631D06F2E4E13354B7499A159A1539FFE5F",
+            "infoId" : "20190326184204631D06F2E4E13354B7499A159A1539FFE5F",
+            "subId" : 24,
+            "title" : "保障範圍",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>凡由於外來明顯意外事故所致的體殘或身故，均可按傷殘的程度獲得保險金額的全部或一部份的賠償。（詳見賠償金額表）</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184204753D957D66AFE114FC7879400C2A3614C19",
+            "infoId" : "20190326184204753D957D66AFE114FC7879400C2A3614C19",
+            "subId" : 24,
+            "title" : "附加保險",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>醫藥費用賠償由於意外受傷必須花費的合理治療費用，經註冊醫生或醫院證實，即可獲得賠償。不論屬一次事故或多次事故的累積賠額，最高以不超過約定之保險金額為限。醫藥賠償保額：不得投保超過原保額的百份之十，最高限額為澳門元/港元50,000元。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184204874C78D3D36603748C3A046876C2F6E150B",
+            "infoId" : "20190326184204874C78D3D36603748C3A046876C2F6E150B",
+            "subId" : 24,
+            "title" : "保費計算 (MOP/HKD)",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>保費按投保人職業類別計算。最低收費：澳門元 / 港元150元</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261842049932B87408D8F26430385FD23F0CE48B328",
+            "infoId" : "201903261842049932B87408D8F26430385FD23F0CE48B328",
+            "subId" : 24,
+            "title" : "賠償金額表",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/03/c0a839d7fb5c42ca8fa186654408fdb0.png\" style=\"width: 100%;\"><br>規約：賠償金額表內賠款按下列規約辦理：<br>在保險有效期內，不論發生一次或多次賠償，保險公司最高賠償責任，以不超過保險金額為限。<br>保戶不得因遭受一次意外，而獲得表列一項以上的賠償金額。只表列第五項內的可同時兼得，但該項最高賠款不得超過保額的百分之五十。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184205114C6C8BA36CE314216930A75B1130511D4",
+            "infoId" : "20190326184205114C6C8BA36CE314216930A75B1130511D4",
+            "subId" : 24,
+            "title" : "除外責任",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>凡直接或間接由於下列原因所致的，不保在內：<br>戰爭、類似戰爭的行動、內戰、叛變、罷工、暴動，或由於核子武器，核子游離輻射，核子燃料或其燃燒後產生的廢料所導致的輻射污染（包括自發的核子分裂在內）。<br>疾病、傳染病或非因意外事故而進行內外科治療手術而致的體殘、身故。<br>自加傷害、自殺、或因觸犯刑例的不法行為。<br>遭遇謀害。<br>打獵、攀山、滑雪、滑水、潛水、參加各種競賽、毆鬥、或因酒醉、服用藥物、神經錯亂等所致的意外事故。<br>從事軍警當執行職務時所致的，或空中飛航當不是作為旅客乘搭航空公司班機的航程內所致的。<br>若被保險人為女性，由於懷孕、分娩、難產或因而引起的意外事故。<br>本保險並不包括由“恐怖行動”所造成的直接或間接損失。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 25,
+          "tableId" : null,
+          "subName" : "運輸保險",
+          "infoList" : [ {
+            "id" : "20190326184203785507845B0E6B84AA6837121C9B20A8DE7",
+            "infoId" : "20190326184203785507845B0E6B84AA6837121C9B20A8DE7",
+            "subId" : 25,
+            "title" : "學會貨運條款 (A)",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>保障範圍廣泛，且承保全險（ALLRISKS），除指定不保事項外，例如保戶的故意行為、保品的自然滲漏、重量或容量之自然損耗、自然磨損、包裝不當、保品本身固有瑕疵或特性、航程延遲、船舶所有人破產或不履行債務、原子或核子輻射、船舶不適航、戰爭及罷工暴動等引致的損失及費用，一切在運送途中發生的意外事故均在保障範圍內。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184203904B5CBD31AC23E483EA3CE7E36B3AD782F",
+            "infoId" : "20190326184203904B5CBD31AC23E483EA3CE7E36B3AD782F",
+            "subId" : 25,
+            "title" : "陸路運輸險",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>保障範圍包括載運汽車或火車出軌、相撞、翻車、隧道崩陷、橋樑斷塌、火災等引致貨物損失。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261842040237C74588B009E4784B56028F51ADDB7B3",
+            "infoId" : "201903261842040237C74588B009E4784B56028F51ADDB7B3",
+            "subId" : 25,
+            "title" : "航空運輸險",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>承保載運飛機由於碰撞、墜毀、著火、爆炸或其他意外事故，而致貨物遭受損毀或滅失。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184204146B4FECFC6E0CD4E13813EB927124AC0CA",
+            "infoId" : "20190326184204146B4FECFC6E0CD4E13813EB927124AC0CA",
+            "subId" : 25,
+            "title" : "戰爭險",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>由於船隻被捕、被擄、拘管、禁制和扣留或由於上述事故引致的後果而使貨物遭受損失。<br>由於敵對行為、類似戰爭的行動、內戰、革命、起義、叛變所致的損失。<br>由於水雷、魚雷、炸彈或其他戰爭工具所致的損失。<br>由於戰爭危險所引致的共同海損及救助費用等。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184204268C5DE9B84AC7F48978C484ECD259D067B",
+            "infoId" : "20190326184204268C5DE9B84AC7F48978C484ECD259D067B",
+            "subId" : 25,
+            "title" : "附加險",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>下列附加險，可根據被保險人的要求，視貨物的特性，在已保學會貨運條款C或B的基礎上予以附加承保。<br>盜竊短交險(T.P.N.D.):\"盜\"指整件貨物被盜；\"竊\"指部份貨物被竊；\"短交\"指提貨時發覺貨物件數短少。<br>淡水雨淋險(R.F.W.D.):貨物在裝卸或運輸途中由於淡水、雨水而發生淡水漬的損失。<br>碎滲漏險(BREAKAGE,LEAKAGE):貨物在運輸途中，受震破碎、或因包裝破裂、滲漏減重等損失。<br>鉤損(HOOKDAMAGE):貨物在裝卸時因使用手、吊等工具所造成的損失。<br>玷污油漬險(DAMAGEBYCONTACTWITHOILAND/OROTHERCARGO):所保貨物被油類或其他貨物所玷污的損失。<br>艙面險(ONDECK):由於貨物的特性如火水、危險化學品、汽車、水果蔬菜等，按照慣例必須裝在艙面者：保戶應將此情況向保險公司聲明，並加保艙面險。但艙面貨物祗保條款C為限，不保條款B或條款A，亦不保上述5類的附加險。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184204389130CFBF20BDE4F2097B7A5D8E54C476A",
+            "infoId" : "20190326184204389130CFBF20BDE4F2097B7A5D8E54C476A",
+            "subId" : 25,
+            "title" : "索償須知",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>所保貨物在運抵保險單所載之目的地後，保戶或收貨人必須及時提貨並做到下列各點：<br>發現貨物受到損失，須立即通知保單上指定的查驗人進行查驗並取得其查驗報告書。如該項損失與承運人的責任有關，則應按下列第3條辦理。<br>如貨物整件遺失，必須立即向承運人或港口當局索取證明，並以書面提出賠償要求。<br>提貨時如貨物受損明顯可見，必須立即要求承運人進行查驗並向其提出賠償要求。<br>收貨人于提貨時如懷疑貨物有損，則不能簽具潔淨收據（CLEANRECEIPT）給船方。<br>如提貨時貨物受損並不明顯可見，則須於收貨後3天內，將情況書面通知船方，並提出賠償要求。<br>保戶向本公司要求索賠時，為了使賠案能迅速審理解決，保戶必須提供下列各項單證。<br>保險單正本ORIGINALPOLICY<br>提單BILLOFLADING<br>發票INVOICE<br>裝箱單PACKINGLIST<br>貨損證明DOCUMENTARYEVIDENCEOFLOSS/DAMAGE<br>貨損檢驗報告SURVEYREPORT<br>如涉及第三者責任，還須提供向第三者追償責任的有關函件及其他必要單證或文件。<br>注意事項：本保險並不包括由“恐怖行動”所造成的直接或間接損失。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 26,
+          "tableId" : null,
+          "subName" : "汽車民事責任強制性保險",
+          "infoList" : [ {
+            "id" : "20190326184202540F253E8124B6D4B3F92911471AA1F2DF1",
+            "infoId" : "20190326184202540F253E8124B6D4B3F92911471AA1F2DF1",
+            "subId" : 26,
+            "title" : "投保辦法",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>投保人只需簽具一份《投保書》<br>同時請提供以下檔副本:<br>《登記折》和《車契》或“轉名紙”<br>車主身份證明文件、駕駛執照<br>前保險資料（保單、保卡或續保書）<br>供款合約（倘屬分期承購車輛者）</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184202659687E0F0288A5429BA1B79B1EC034A04B",
+            "infoId" : "20190326184202659687E0F0288A5429BA1B79B1EC034A04B",
+            "subId" : 26,
+            "title" : "索償程式及手續",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>倘不幸發生事故，投保人必須：<br>即時向當局報案申述事實真相，並作應有的追究。<br>在保險公司或公證行人員辦妥檢驗工作前，請保持被保車輛受損當時的狀況，並應採取適當的措施，以減少或不加重損害程度。<br>須在事故後八日內親臨本公司辦理手續，並請攜同以下檔正本：<br>車契（或“轉名紙”）、登記折<br>投保人身份證明文件、駕駛執照及保險卡<br>供款合約（倘涉分期付款購車者）<br>由當局簽發的任何有關文件（例如：罰款收據、報案收據等）<br>在接獲任何索償書、勒令或訴訟通知後，應立即遞交予保險公司。<br>請儘快聯絡由本公司指定的修理廠提供修理報價單。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "2019032618420242030ED7D4884B64871BCFB70E827DD08B4",
+            "infoId" : "2019032618420242030ED7D4884B64871BCFB70E827DD08B4",
+            "subId" : 26,
+            "title" : "保障類別",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>民事責任保障：強制性保險<br>對第三者民事責任的保障：俗稱“第三保”<br>對集體客運之用於公共服務車輛的乘客的保障<br>車輛本身保障：自願附加保障<br>碰撞、相撞或翻車<br>火災、閃電或爆炸<br>盜竊或搶劫<br>玻璃破碎<br>水災、颱風、熱帶暴風雨或其他自然界變異</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 27,
+          "tableId" : null,
+          "subName" : "家安保險",
+          "infoList" : [ {
+            "id" : "20190326184205604496760DBE14C446C96E01FFC904BE104",
+            "infoId" : "20190326184205604496760DBE14C446C96E01FFC904BE104",
+            "subId" : 27,
+            "title" : "家安保險三大優點",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>保費優惠<br>投保足額，可獲得全部受保物品的新置價賠償<br>在承保居所引致第三者財產損失或身體傷亡而須負法律責任，投保人最高獲賠償額達港/葡幣伍拾萬元。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261842052360CA31BDF79AC41DD9BD900271151FD3D",
+            "infoId" : "201903261842052360CA31BDF79AC41DD9BD900271151FD3D",
+            "subId" : 27,
+            "title" : "保障範圍",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>此計畫的保障範圍包括家居樓宇及家居財物，投保人亦可選擇只投保其中一項。<br><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/03/bb48db11bb9b422fb986679fb94f30e7.png\" style=\"width: 100%;\"><br>任何意外不包括保險單內聲明之除外責任。保險住所如連續空置十四天以上，則在空置期間，盜竊損失的保障暫時停止。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "20190326184205356CA62B95A565B41ADBA25770DF2BFC232",
+            "infoId" : "20190326184205356CA62B95A565B41ADBA25770DF2BFC232",
+            "subId" : 27,
+            "title" : "額外保障",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>投保甲或乙項，均可免費獲得下列保障<br><img src=\"https://ecustomercdn.itaiping.com/static/customer_headimage/201904/03/67614a98b0324a4aaf9d7410513c3c57.png\" style=\"width: 100%;\"></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "201903261842054772CA4FA3A4AE046ED936AD6C8693E8C83",
+            "infoId" : "201903261842054772CA4FA3A4AE046ED936AD6C8693E8C83",
+            "subId" : 27,
+            "title" : "賠額計算",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>本計畫對家居財物的保障，乃按照「以新代舊」的原則，即賠償額不計算折舊，因此，投保金額亦應以投保物品的新置價為准，倘若須要賠款時，保險金額少於全部受保物品的新置價，則按比例賠償。此外，每次事故，投保人必須自負保單所述之自負額。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        } ]
+      }, {
+        "tableName" : "跨境车专区",
+        "tableId" : 3,
+        "infoList" : null,
+        "subList" : [ {
+          "subId" : 28,
+          "tableId" : null,
+          "subName" : "承保指引",
+          "infoList" : [ {
+            "id" : "90",
+            "infoId" : "90",
+            "subId" : 28,
+            "title" : "车险产品简介",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>太平财险、太平香港、太平澳门可为您提供符合本地法律法规要求的机动车强制保险或商业保险报价、投保以及理赔等售后服务。<br>\r\n1.太平财险：提供“机动车交通事故责任强制保险”和“粤港（粤澳）两地机动车第三者责任商业保险”。<br>\r\n2.太平香港：提供“法定第三保”、“综合保险”、“跨境车主责任保险（仅限香港车主购买）”、“附加扩展车身损失至国内和澳门条款”。<br>\r\n3.太平澳门：提供“汽车民事责任强制保险”、“车辆本身保险”。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "91",
+            "infoId" : "91",
+            "subId" : 28,
+            "title" : "承保详情",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>您只需就近向太平财险(或太平香港或太平澳门)任一服务网点提供投保资料并缴费保费，即可获取粤港澳三地的车辆保险保障。所需投保资料明细如下：<br>\r\nA.【投保单或投保书】 有投保人签章确定的投保单或投保书；<br>\r\nB.【车辆资料】需提供投保机动车权益人和车辆注册文件副本等,如：<br>\r\n(1)车辆资料：《登记折》或首次登记申请用“禀纸”或《行驶证》其中之一；<br>\r\n(2)车辆所有权证明：《车契》或《买卖合约》或申请转让登记之收条或车辆登记证书之一；<br>\r\n(3)客户临时牌申请回执。<br>\r\nC．【客户资料】车主身份证明文件（如身份证）、驾驶执照；<br>\r\nD．【上年保险资料】（如保单、保卡、或续保书等）；<br>\r\nE.【供款合約】(属贷款分期购车辆者)。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 29,
+          "tableId" : null,
+          "subName" : "理赔指引",
+          "infoList" : [ {
+            "id" : "92",
+            "infoId" : "92",
+            "subId" : 29,
+            "title" : "内地",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>跨境机动车出险时，赔偿处理适用出险地法律法规。<br>\r\n1.适用法律：适用中华人民共和国法律法规；<br>\r\n2．理赔标准：按照内地保险条款与赔偿标准执行；<br>\r\n3．理赔服务流程<br>\r\n(1)报案：客户可拨打95589按1进行车辆报案登记。报案时，需向客服专员提供信息：车牌号、出险时间、地点、事故简要经过及其他必要的信息。<br>\r\n(2)申办地点：太平财产保险有限公司广东省内各服务网点。<br>\r\n(3)现场查勘：太平财险查勘人员365天*24小时，对标的车辆进行查勘，核定事故责任。<br>\r\n(4)资料收集：客户可向太平财险所属机构提交索赔资料（太平香港可指引协助客户提供资料），太平财险自收到索赔资料之日起按约定时间支付赔款。<br>\r\n(5)赔款支付：按照保单约定币种赔偿，赔款支付给客户或受害的第三方。<br>\r\n(6)争议解决方式：按照保险合同约定处理。<br>\r\n4.在港珠澳大桥内地段、广东省内高速公路及城市道路，发生“人未伤、车能动”的交通事故，一般事故处理流程：<br>\r\n(1)在确保安全前提下，当事人对事故现场拍照取证→(2)拍照取证后，立即将事故车辆挪至应急通道等不影响交通的安全地点→(3)记录事故对方 联系电话、车牌号、行驶证、驾驶证及车辆投保信息→(4) →拨打110报警电话或太平财险95589客服电话寻求协助)→(5)各当事人根据交警或保险公司指引驾车至就近的“快撤理赔”服务点或修理单位办理后续理赔事宜。\r\n5.广东交警部门开发了“轻微交通事故e处理”线上自助处理流程，车主可根据需要选择使用，一般流程如下：\r\n(1)当事人打开“交警在线”手机事故e处理APP(建议事前下载备用)，在确保安全前提下，根据系统操作提示→(2)拍照取证完后，立即将事故车辆挪至不影响交通的安全地点→(3)双方协商责任，系统签名提交→(4)系统后台审核后，按系统提示办理后续理赔事宜。\r\n6.发生有人身伤亡、车辆无法继续行驶的交通事故，或者事故当事人发生纠纷的，应在确保安全前提下，尽快拨打110或122报警电话，等待救援，并致电保险公司服务热线，根据交警及保险公司指引进行事故处理。<br>\r\n\r\n您可登录太平财险官网（www.cntaiping.com）、官微、APP太平通查询您在内地的承保理赔信息。</body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "93",
+            "infoId" : "93",
+            "subId" : 29,
+            "title" : "香港",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>跨境机动车出险时，赔偿处理适用出险地法律法规。\r\n在香港地区出险的理赔处理与太平香港常规无异处,申报意外手续如下: \r\n1.如遇有交通意外时，请勿移动车辆及实时报警求助，在情况许可下记录或拍摄当时情况；或须于24小时之内通知香港交通部备案。<br>\r\n港岛交通部（852) 3661 1620<br>\r\n东九龙交通部\t(852) 3661 1636<br>\r\n西九龙交通部\t(852) 3661 1654<br>\r\n新界南交通部\t(852) 3661 1710<br>\r\n新界北交通部\t(852) 3661 1684<br>\r\n紧急求助时，立即拨电(852) 999 <br>\r\n2.将有关意外事件详情向警方报告，并保留已录取之警方口供以供保险公司跟进用途。<br>\r\n3.如意外责任属对方司机过失，我方司机必须于10天内向交通部作出投诉，以便警方再作跟进。<br>\r\n4.被保人亦须于意外发生当天起14天内以书面形式向我司报案，并须将已填妥之《汽车意外出事报告书》交回我司以作跟进。（注意：电话备案恕不接受）<br>\r\n5.《汽车意外出事报告书》一共六页，请细阅内容及必须回答所有问题。<br>\r\n《汽车意外出事报告书》可网上下载:http://www.hk.cntaiping.com<br>\r\n6.书面通知保险公司请连同下列文件一并交回：<br>\r\n（1）《汽车意外出事报告书》正本<br>\r\n（2）授权书正本，即『汽车意外出事报告书』第六页<br>\r\n（3）司机 - 身份证副本／身份证明文件<br>\r\n（4）司机 - 有效驾驶执照副本（包括香港特别行政区内驾驶许可文件）<br>\r\n（5）当地发出车辆登记文件副本<br>\r\n（6）提交香港有效之保单副本<br>\r\n（7）警方发出之报案纸（详列报案编号）<br>\r\n（8）警方发出之酒后驾驶程序表格第一部份（即检查呼气测试副本），若未有进行呼气测试，司机须同时以书面说明。<br>\r\n（9）警方发出之口供连绘图（如有）<br>\r\n（10）意外相片（如有，请提供）<br>\r\n（11）如事故车辆于意外后曾被交通部拖走作进一步检验或调查，请提供警方验车结果文件。<br>\r\n（12）在未有获得保险公司同意之前，不得向第三者作出任何有关意外责任问题及赔偿之承诺。<br>\r\n（13）若收到任何由警方或第三者发出之信件时（包括拟控告通知书、法庭发出之传票、第三者车辆索偿文件等），应实时通知保险公司处理，切记不应私下回复。<br>\r\n太平香港传真号码：(852) 3548 8126<br>\r\n电邮地址：info@hk.cntaiping.com<br>\r\n邮件地址:香港铜锣湾新宁道8号中国太平大厦19字楼理赔部汽车险组收<br>\r\n（14）凡涉及迟报、司机私自认罪、私自协议赔偿或作出承诺，均属违反保单条款，保险公司有权作拒赔处理。<br>\r\n（15）所有赔偿要求需附合保单内载条文才可获得赔偿，倘若违反以上事项将可能影响阁下之保单利益。<br></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          }, {
+            "id" : "94",
+            "infoId" : "94",
+            "subId" : 29,
+            "title" : "澳门",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>跨境机动车出险时，赔偿处理适用出险地法律法规。<br>\r\n1.即时向当地警察局报案申述事实真相，并作应有的追究。<br>\r\n2.在保险公司或公证行人员办妥检验工作前，请保持被保车辆受损当时的状况，并应采取适当的措施，以減少或不加重损害程度。<br>\r\n3.须在事故后八日内亲临本公司办理手续，并请携同以下文件正本：<br>\r\n（1）车契〈或“转名纸”〉、登记折、保险卡；<br>\r\n（2）投保人及涉事司机身份证明文件、驾驶执照；<br>\r\n（3）供款合約〈倘涉分期付款购车者〉；及买卖合约〈倘涉全险索赔〉；<br>\r\n（4）由当局签发的任何有关文件〈例如：罚款收据、报收据等〉；<br>\r\n（5）在接获任何索赔书、勒令或诉讼通知后，应立即递交予保险公司。<br>\r\n（6）请尽快联络由本公司指定的修理厂提供修理报价单。<br>\r\n注：基于“直接请求权”，由知悉或受理事故索赔之后，承保方直接面对受害方处理赔偿全过程；但，被保方应：于事故后即时报交警、并以书面方式详报事故细节；基于效率，承保方有专用表格、并同時收纳自负额，一般来说被保方于详报事故细节之后，无需为理赔而烦。<br>\r\n太平澳门传真号码：(853) 28755604、客服热线（853）28785578<br>\r\n电邮地址：info@mo.cntaiping.com<br>\r\n邮件地址:澳门新口岸宋玉生广场392号中航大厦地下C铺<br></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 30,
+          "tableId" : null,
+          "subName" : "温馨提示",
+          "infoList" : [ {
+            "id" : "95",
+            "infoId" : "95",
+            "subId" : 30,
+            "title" : "未查到跨境车保单",
+            "fileName" : null,
+            "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>1.若您是澳门用户，本期跨境车保单查询功能中，尚未对接澳门数据，暂时无法查找澳门的跨境车保单信息。<br>\r\n2.若您是内地/香港用户，可能由于在出单时未填写身份信息数据，导致无法通过个人证件查找相应保单。可以联系您的客户经理，修正保单的证件类型及证件信息。<br></body></html></body></html>",
+            "contentType" : 1,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 31,
+          "tableId" : null,
+          "subName" : "内地表格下载",
+          "infoList" : [ {
+            "id" : "96",
+            "infoId" : "96",
+            "subId" : 31,
+            "title" : "“代位求偿”案件索赔申请书（责任对方为非机动车方）",
+            "fileName" : "“代位求偿”案件索赔申请书（责任对方为非机动车方）.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "97",
+            "infoId" : "97",
+            "subId" : 31,
+            "title" : "“代位求偿”案件索赔申请书（责任对方为机动车方）",
+            "fileName" : "“代位求偿”案件索赔申请书（责任对方为机动车方）.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "98",
+            "infoId" : "98",
+            "subId" : 31,
+            "title" : "机动车辆索赔权转让书",
+            "fileName" : "机动车辆索赔权转让书.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "99",
+            "infoId" : "99",
+            "subId" : 31,
+            "title" : "客户身份基本信息登记表",
+            "fileName" : "客户身份基本信息登记表.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "100",
+            "infoId" : "100",
+            "subId" : 31,
+            "title" : "太平财险保险车辆实物赔付确认书",
+            "fileName" : "太平财险保险车辆实物赔付确认书.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "101",
+            "infoId" : "101",
+            "subId" : 31,
+            "title" : "太平财险机动车辆保险索赔申请书",
+            "fileName" : "太平财险机动车辆保险索赔申请书.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "105",
+            "infoId" : "105",
+            "subId" : 31,
+            "title" : "权益转让书",
+            "fileName" : "权益转让书.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          } ]
+        }, {
+          "subId" : 32,
+          "tableId" : null,
+          "subName" : "香港表格下载",
+          "infoList" : [ {
+            "id" : "102",
+            "infoId" : "102",
+            "subId" : 32,
+            "title" : "粵港跨境車主責任保險投保單",
+            "fileName" : "粵港跨境車主責任保險投保單.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "103",
+            "infoId" : "103",
+            "subId" : 32,
+            "title" : "粵港通車主責任保險投保書",
+            "fileName" : "粵港通車主責任保險投保書.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          }, {
+            "id" : "104",
+            "infoId" : "104",
+            "subId" : 32,
+            "title" : "自駕遊_跨境車主責任保險投保書",
+            "fileName" : "自駕遊_跨境車主責任保險投保書.pdf",
+            "content" : "",
+            "contentType" : 2,
+            "baseName" : null
+          } ]
+        } ]
+      } ]
+    }, {
+      "baseId" : 4,
+      "baseName" : "其它问题",
+      "baseImg" : null,
+      "subList" : [ {
+        "subId" : 7,
+        "tableId" : null,
+        "subName" : "登录及使用问题",
+        "infoList" : [ {
+          "id" : "9",
+          "infoId" : "9",
+          "subId" : 7,
+          "title" : "有哪些登录方式？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>首次登录可使用手机号码或者第三方（如微信）方式登录。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "30",
+          "infoId" : "30",
+          "subId" : 7,
+          "title" : "登录收到不验证吗？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>1、如微信登录，请确认微信端是否有绑定手机号码是否正确<br>\r\n2、手机登录收不到验证码，检查手机是否设置拦截功能，如有疑问可拨打我们公司全国客服热线95589-6咨询。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "31",
+          "infoId" : "31",
+          "subId" : 7,
+          "title" : "如何更换其他用户登录？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>在太平通App首页面点击“我的”进入，点击右上角“设置”图标进入页面点击“安全退出”后可更换其他用户登录。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "32",
+          "infoId" : "32",
+          "subId" : 7,
+          "title" : "如何更改绑定手机号码？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>在太平通App首页面点击“我的”进入，点击“头像或者个人信息”后选择“手机号码”根据提示可更改绑定手机号码。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        } ]
+      }, {
+        "subId" : 8,
+        "tableId" : null,
+        "subName" : "金币及优惠券问题",
+        "infoList" : [ {
+          "id" : "10",
+          "infoId" : "10",
+          "subId" : 8,
+          "title" : "如何查询金币情况？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>在太平通App首页点击“我的”即可查询，点击查看详情可查询金币使用情况。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "33",
+          "infoId" : "33",
+          "subId" : 8,
+          "title" : "金币及优惠券有那些用途？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>金币及优惠券客户在会员商品商城使用。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "34",
+          "infoId" : "34",
+          "subId" : 8,
+          "title" : "如何获取金币？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>可通过完成金币任务获得。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        } ]
+      }, {
+        "subId" : 9,
+        "tableId" : null,
+        "subName" : "商品商城",
+        "infoList" : [ {
+          "id" : "11",
+          "infoId" : "11",
+          "subId" : 9,
+          "title" : "如何查询订单情况？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>通过太平通App首页，选择“我的”点击“商城订单”查询订单情况。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "35",
+          "infoId" : "35",
+          "subId" : 9,
+          "title" : "如何查询已选定的商品？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>通过太平通App首页，选择“我的”点击“购物车”查询所选商品情况。<br></body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        } ]
+      }, {
+        "subId" : 10,
+        "tableId" : null,
+        "subName" : "其他问题",
+        "infoList" : [ {
+          "id" : "12",
+          "infoId" : "12",
+          "subId" : 10,
+          "title" : "太平通APP有哪些功能？",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>可在上面查询到名下在太平人寿、太平财险、太平养老等保单情况，报案、理赔查询、寿险回执回访、寿险续期交费、我的养老保障、团险理赔申请，同时也可在太平通APP上面购物，话费充值等享受全方位一站式服务。</body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        }, {
+          "id" : "36",
+          "infoId" : "36",
+          "subId" : 10,
+          "title" : "目前的服务项目",
+          "fileName" : null,
+          "content" : "<html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body><html><head><meta charset=\"utf-8\" name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /><style type=\"text/css\"> body {padding-bottom: 15px;background-color: transparent;}</style></head><body>1、可支持人寿、养老、财险等专业公司出险报案，团险理赔申请，人寿、养老保单理赔进度查询。<br>\r\n2、支持太平养老查询保障内容、交费信息查询，投资单位净值查询、金世满期领取、投资分配变更等服务。<br>\r\n3、支持太平人寿保单回执回访、保全业务办理、实时贷、保单续期交费、柜面预约等服务。<br>\r\n4、其他服务内容有名医直播、会员商城。</body></html></body></html>",
+          "contentType" : 1,
+          "baseName" : null
+        } ]
+      } ],
+      "tableList" : null
+    } ]
+  }
+}

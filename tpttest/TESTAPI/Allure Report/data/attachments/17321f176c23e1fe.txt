@@ -1,0 +1,55 @@
+INFO     logs1.log:logfun.py:24 请求开始：请求接口名称 电子保单详情
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Sat, 16 Jan 2021 08:44:30 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917180545525d5f4f58455e445a4a4231d2;expires=Sat, 16-Jan-2021 09:04:30 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/lifems/policy/queryPolicyInfo
+请求入参{'policyCode': '000092406879922'}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "policyCode" : "000092406879922",
+    "applicant" : "章豹",
+    "insured" : "章豹",
+    "mianInsuranceName" : "太平质安心质子重离子医疗保险",
+    "statusName" : "有效",
+    "downloadStatus" : "未下载",
+    "receiveStatus" : "已签收",
+    "effectiveDate" : "2020-04-28",
+    "applyCode" : "000092406876923",
+    "postCode" : null,
+    "address" : null,
+    "telphone" : " ",
+    "mobile" : "13023221797",
+    "organId" : "10813",
+    "sellChannel" : "3",
+    "agree_name" : null,
+    "agree_code" : "无",
+    "answerFlag" : "1",
+    "answerFlagDesc" : "回访",
+    "answerFlagInfoDesc" : "去回访",
+    "answerMessage" : null,
+    "organName" : null,
+    "productId" : "4074",
+    "internalId" : null,
+    "periodDesc" : null,
+    "specialDesc" : null,
+    "receiptStatus" : "Y",
+    "receiptMessage" : "已签收",
+    "isElecSell" : "2",
+    "amlFlag" : null,
+    "holdDate" : null,
+    "discountPrem" : 0.0,
+    "discountPremZz" : 0.0,
+    "chargeYear" : null,
+    "chargeName" : null,
+    "payModeSq" : null,
+    "payModeNameSq" : null,
+    "payModeXq" : null,
+    "payModeNameXq" : null,
+    "holderName" : null,
+    "autopayAccountType" : null,
+    "bankAccount" : null
+  }
+}

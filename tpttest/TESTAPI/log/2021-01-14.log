@@ -1,0 +1,306 @@
+[2021-01-14 16:26:31,769] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:26:32 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "9999",
+  "msg" : "Not Found",
+  "desc" : "Not Found",
+  "data" : null
+}
+[2021-01-14 16:27:38,742] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:27:39 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "9999",
+  "msg" : "Not Found",
+  "desc" : "Not Found",
+  "data" : null
+}
+[2021-01-14 16:31:37,114] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:31:38 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "9999",
+  "msg" : "Not Found",
+  "desc" : "Not Found",
+  "data" : null
+}
+[2021-01-14 16:34:59,795] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:35:00 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "9999",
+  "msg" : "Not Found",
+  "desc" : "Not Found",
+  "data" : null
+}
+[2021-01-14 16:36:10,676] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:36:11 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "9999",
+  "msg" : "Not Found",
+  "desc" : "Not Found",
+  "data" : null
+}
+[2021-01-14 16:41:24,875] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:41:25 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1, 'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI2Nzk5NGM0YjdmNWE0MDRjOTY2YzFlNGJhNDY3ZDg4ZSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTE3NDYzNDEwMDczMzUxMzcyOCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjE1ODU4MjI0MzM5Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA1MjE0NDYsImV4cCI6MTY0MjA1NzQ0Nn0.MOuXLvI7Pt27gEFySnDeyZRnuhxat0afi696TLE660qd8hP5z9r7mBKH-Luwp8oE8zZsaRQTYCMUIvVHpIAwlEQvG_xuoCwdfc6MTgTuc34c9G9sGVVh-w5tPApAMDGLoSza6asMPfyPqy0fG3pBIwFdR-SNd4zvh0EwghSSELg'}
+响应code<Response [200]>
+响应结果{"code":"9797","desc":"登录已过期，请重新登录","msg":"token缺失","success":false}
+[2021-01-14 16:52:38,050] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:52:39 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{"code":"9797","desc":"登录已过期，请重新登录","msg":"token缺失","success":false}
+[2021-01-14 16:54:18,984] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:54:19 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "9999",
+  "msg" : "Not Found",
+  "desc" : "Not Found",
+  "data" : null
+}
+[2021-01-14 16:55:01,932] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:55:02 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1, 'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI2Nzk5NGM0YjdmNWE0MDRjOTY2YzFlNGJhNDY3ZDg4ZSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTE3NDYzNDEwMDczMzUxMzcyOCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjE1ODU4MjI0MzM5Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA1MjE0NDYsImV4cCI6MTY0MjA1NzQ0Nn0.MOuXLvI7Pt27gEFySnDeyZRnuhxat0afi696TLE660qd8hP5z9r7mBKH-Luwp8oE8zZsaRQTYCMUIvVHpIAwlEQvG_xuoCwdfc6MTgTuc34c9G9sGVVh-w5tPApAMDGLoSza6asMPfyPqy0fG3pBIwFdR-SNd4zvh0EwghSSELg'}
+响应code<Response [200]>
+响应结果{"code":"9797","desc":"登录已过期，请重新登录","msg":"token缺失","success":false}
+[2021-01-14 16:57:02,768] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:57:03 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1, 'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI2Nzk5NGM0YjdmNWE0MDRjOTY2YzFlNGJhNDY3ZDg4ZSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTE3NDYzNDEwMDczMzUxMzcyOCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjE1ODU4MjI0MzM5Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA1MjE0NDYsImV4cCI6MTY0MjA1NzQ0Nn0.MOuXLvI7Pt27gEFySnDeyZRnuhxat0afi696TLE660qd8hP5z9r7mBKH-Luwp8oE8zZsaRQTYCMUIvVHpIAwlEQvG_xuoCwdfc6MTgTuc34c9G9sGVVh-w5tPApAMDGLoSza6asMPfyPqy0fG3pBIwFdR-SNd4zvh0EwghSSELg'}
+响应code<Response [200]>
+响应结果{"code":"9797","desc":"登录已过期，请重新登录","msg":"token缺失","success":false}
+[2021-01-14 16:57:25,890] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:57:26 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "currentPageIndex" : 0,
+    "totalCount" : 28,
+    "pageSize" : 300,
+    "haveNextPage" : false,
+    "totalPages" : 0,
+    "customerAllPolicyList" : [ ],
+    "isView" : "0"
+  }
+}
+[2021-01-14 16:58:55,318] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 08:58:56 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "currentPageIndex" : 0,
+    "totalCount" : 28,
+    "pageSize" : 300,
+    "haveNextPage" : false,
+    "totalPages" : 0,
+    "customerAllPolicyList" : [ ],
+    "isView" : "0"
+  }
+}
+[2021-01-14 18:04:43,363] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 10:04:44 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "currentPageIndex" : 0,
+    "totalCount" : 28,
+    "pageSize" : 300,
+    "haveNextPage" : false,
+    "totalPages" : 0,
+    "customerAllPolicyList" : [ ],
+    "isView" : "0"
+  }
+}
+[2021-01-14 18:06:46,573] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 10:06:47 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917185645525d5f4f58455e445a4a4231d2;expires=Thu, 14-Jan-2021 10:26:47 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{"code":"9794","data":{"userId":"1174634100733513728"},"desc":"登录已过期，请重新登录","msg":"token不存在","success":false}
+[2021-01-14 18:07:20,328] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 10:07:21 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "currentPageIndex" : 0,
+    "totalCount" : 28,
+    "pageSize" : 300,
+    "haveNextPage" : false,
+    "totalPages" : 0,
+    "customerAllPolicyList" : [ ],
+    "isView" : "0"
+  }
+}
+[2021-01-14 18:19:54,612] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 10:19:55 GMT', 'Content-Type': 'application/json;charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{"code":"9794","data":{"userId":"1254671242951266304"},"desc":"登录已过期，请重新登录","msg":"token不存在","success":false}
+[2021-01-14 18:20:23,376] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 10:20:24 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917187645525d5f4f58455e445a4a4231d2;expires=Thu, 14-Jan-2021 10:40:24 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "currentPageIndex" : 0,
+    "totalCount" : 3,
+    "pageSize" : 300,
+    "haveNextPage" : true,
+    "totalPages" : 1,
+    "customerAllPolicyList" : [ {
+      "policyCode" : "000092406879922",
+      "statusName" : "保障中",
+      "productName" : "太平质安心质子重离子医疗保险",
+      "applicantId" : 255699295,
+      "applicantName" : "章豹",
+      "insuredId" : 255699295,
+      "insuredName" : "章豹",
+      "validateDate" : "2020-04-28",
+      "pauseDate" : "",
+      "endDate" : "2056-04-27",
+      "policyType" : 1,
+      "polInsuId" : null,
+      "riskCode" : null,
+      "licenseNo" : null,
+      "polProductName" : null
+    } ],
+    "isView" : "0"
+  }
+}
+[2021-01-14 18:22:28,592] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 10:22:29 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "currentPageIndex" : 0,
+    "totalCount" : 28,
+    "pageSize" : 300,
+    "haveNextPage" : false,
+    "totalPages" : 0,
+    "customerAllPolicyList" : [ ],
+    "isView" : "0"
+  }
+}
+[2021-01-14 18:22:50,327] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 10:22:51 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917184445525d5f4f58455e445a4a4231d2;expires=Thu, 14-Jan-2021 10:42:51 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "currentPageIndex" : 0,
+    "totalCount" : 3,
+    "pageSize" : 300,
+    "haveNextPage" : true,
+    "totalPages" : 1,
+    "customerAllPolicyList" : [ {
+      "policyCode" : "000092406879922",
+      "statusName" : "保障中",
+      "productName" : "太平质安心质子重离子医疗保险",
+      "applicantId" : 255699295,
+      "applicantName" : "章豹",
+      "insuredId" : 255699295,
+      "insuredName" : "章豹",
+      "validateDate" : "2020-04-28",
+      "pauseDate" : "",
+      "endDate" : "2056-04-27",
+      "policyType" : 1,
+      "polInsuId" : null,
+      "riskCode" : null,
+      "licenseNo" : null,
+      "polProductName" : null
+    } ],
+    "isView" : "0"
+  }
+}
+[2021-01-14 18:22:50,866] [logfun] [log_fun] [INFO] 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Thu, 14 Jan 2021 10:22:51 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers, Origin, Access-Control-Request-Method, Access-Control-Request-Headers'}
+请求url https://tptsit.itaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "currentPageIndex" : 0,
+    "totalCount" : 28,
+    "pageSize" : 300,
+    "haveNextPage" : false,
+    "totalPages" : 0,
+    "customerAllPolicyList" : [ ],
+    "isView" : "0"
+  }
+}

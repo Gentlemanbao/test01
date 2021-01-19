@@ -1,0 +1,12 @@
+INFO     logs1.log:logfun.py:24 请求开始：请求接口名称 /userms/identification/facedCountCheck
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Sat, 16 Jan 2021 08:59:51 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917184745525d5f4f58455e445a4a4231d2;expires=Sat, 16-Jan-2021 09:19:51 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/userms/identification/facedCountCheck
+请求入参{'serviceTypeM': '太平人寿', 'serviceTypeS': '寿险回访', 'sourceSys': 'KHT01', 'policyCode': '000092406879922'}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : true
+}

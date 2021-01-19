@@ -1,0 +1,381 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-DEGO9795",
+    "children" : [ {
+      "name" : "21052-MainThread",
+      "children" : [ {
+        "name" : "test01[data8]",
+        "uid" : "bf536d852f5f3482",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787589188,
+          "stop" : 1610787589364,
+          "duration" : 176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '/userms/identification/facedCountCheck', 'environment': '生产', 'url': 'https://${url}/userms/identification/facedCountCheck', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'serviceTypeM': '太平人寿', 'serviceTypeS': '寿险回访', 'sourceSys': 'KHT01'}, 'expect': 0, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}" ]
+      }, {
+        "name" : "test01[data5]",
+        "uid" : "fbe572d411bb7592",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787587621,
+          "stop" : 1610787588590,
+          "duration" : 969
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '电子保单详情', 'environment': '生产', 'url': 'https://${url}/lifems/policy/queryPolicyInfo', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'policyCode': 1}, 'expect': '000092406879922', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}" ]
+      }, {
+        "name" : "test01[data13]",
+        "uid" : "56b118a1d28681f1",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787591813,
+          "stop" : 1610787592426,
+          "duration" : 613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '续签缴费保单列表接口', 'environment': '生产', 'url': 'https://${url}/lifems/RenewPolicyApi/getRenewPolicyList', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': None, 'expect': 0, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data2]",
+        "uid" : "8f4799a913eab904",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787583396,
+          "stop" : 1610787583738,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': 'isExistsRenewPolicyFlag', 'environment': '生产', 'url': 'https://${url}/lifems/user/isExistsRenewPolicyFlag', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': None, 'expect': 0, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data7]",
+        "uid" : "24dbb1b24ed1972b",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787588878,
+          "stop" : 1610787589183,
+          "duration" : 305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '/lifems/policy/queryNeedCheckMessage', 'environment': '生产', 'url': 'https://${url}/lifems/policy/queryNeedCheckMessage', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'organId': 10813}, 'expect': 0, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}" ]
+      }, {
+        "name" : "test01[data4]",
+        "uid" : "2968f96c9b19794",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787585605,
+          "stop" : 1610787587611,
+          "duration" : 2006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '保单详情', 'environment': '生产', 'url': 'https://${url}/lifems/user/policyInfo', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'policyCode': 1, 'policyType': 1}, 'expect': '000092406879922', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要参数依赖'}}" ]
+      }, {
+        "name" : "test01[data9]",
+        "uid" : "81829f293179944a",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787589368,
+          "stop" : 1610787589687,
+          "duration" : 319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '/lifems/vivoDetection/init', 'environment': '生产', 'url': 'https://${url}/lifems/vivoDetection/init', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'bizType': 'detection', 'deviceType': 'ANDROID', 'idNo': 362501199405133011, 'realName': '章豹'}, 'expect': 0, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}" ]
+      }, {
+        "name" : "test01[data1]",
+        "uid" : "ec3098acbba76947",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787580073,
+          "stop" : 1610787583394,
+          "duration" : 3321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '保单服务页资讯列表接口', 'environment': '生产', 'url': 'https://${url}/campaignsms/essay/queryEssayListV3', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'id': 3, 'pageNo': 1, 'pageSize': 10}, 'expect': '保险', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data3]",
+        "uid" : "21835870194def93",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787583748,
+          "stop" : 1610787585595,
+          "duration" : 1847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '保单列表', 'environment': '生产', 'url': 'https://${url}/lifems/user/policyList', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}, 'expect': '000092406879922', 'rely': {'yes_rely': 'data.customerAllPolicyList.0.policyCode'}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data10]",
+        "uid" : "7b3939ec2d93ba3b",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787589691,
+          "stop" : 1610787590170,
+          "duration" : 479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '网点查询接口', 'environment': '生产', 'url': 'https://${url}/lifems/appointment/allListSiteByCity', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'city': '上海市', 'lat': 31.188655, 'lng': 121.461994, 'pageNumber': 1, 'pageSize': 100}, 'expect': '黄浦支公司', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data6]",
+        "uid" : "16d073b721da7906",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787588600,
+          "stop" : 1610787588869,
+          "duration" : 269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '/userms/identification/customerAuthCheck', 'environment': '生产', 'url': 'https://${url}/userms/identification/customerAuthCheck', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'userId': 1254671242951266304}, 'expect': 1170064002, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}" ]
+      }, {
+        "name" : "test01[data11]",
+        "uid" : "a3bd2bb950f94c8f",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787590202,
+          "stop" : 1610787590507,
+          "duration" : 305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '柜面预约网点查询接口', 'environment': '生产', 'url': 'https://${url}/lifems/appointment/listSiteByCity', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'city': '上海市', 'lat': 31.188655, 'lng': 121.461991, 'pageNumber': 1, 'pageSize': 100}, 'expect': '陆家嘴支公司', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data0]",
+        "uid" : "a6e7670b5d1364e3",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787579616,
+          "stop" : 1610787580069,
+          "duration" : 453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '进入保单服务', 'environment': '生产', 'url': 'https://${url}/campaignsms/advert/getAdverts', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'code': None, 'type': 14, 'userId': 1254671242951266304}, 'expect': '服务页', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data12]",
+        "uid" : "1fef1300b2811bce",
+        "parentUid" : "31c82b0118a68a566da4735423ac821b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787590518,
+          "stop" : 1610787591808,
+          "duration" : 1290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '获取服务指引接口', 'environment': '生产', 'url': 'https://${url}/campaignsms/getProblemList', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'baseId': 0}, 'expect': '理赔项目及对应材料', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      } ],
+      "uid" : "31c82b0118a68a566da4735423ac821b"
+    }, {
+      "name" : "24680-MainThread",
+      "children" : [ {
+        "name" : "test01[data6]",
+        "uid" : "fc6c4d8fac83c2f7",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787765977,
+          "stop" : 1610787766213,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '/userms/identification/customerAuthCheck', 'environment': '生产', 'url': 'https://${url}/userms/identification/customerAuthCheck', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'userId': 1254671242951266304}, 'expect': 1170064002, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}" ]
+      }, {
+        "name" : "test01[data10]",
+        "uid" : "f7589ca13a2a4561",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787767020,
+          "stop" : 1610787767321,
+          "duration" : 301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '网点查询接口', 'environment': '生产', 'url': 'https://${url}/lifems/appointment/allListSiteByCity', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'city': '上海市', 'lat': 31.188655, 'lng': 121.461994, 'pageNumber': 1, 'pageSize': 100}, 'expect': '黄浦支公司', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data8]",
+        "uid" : "a9adc2b782ab58db",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787766529,
+          "stop" : 1610787766745,
+          "duration" : 216
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '/userms/identification/facedCountCheck', 'environment': '生产', 'url': 'https://${url}/userms/identification/facedCountCheck', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'serviceTypeM': '太平人寿', 'serviceTypeS': '寿险回访', 'sourceSys': 'KHT01'}, 'expect': 0, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}" ]
+      }, {
+        "name" : "test01[data7]",
+        "uid" : "436c4dc87ea8852a",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787766223,
+          "stop" : 1610787766517,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '/lifems/policy/queryNeedCheckMessage', 'environment': '生产', 'url': 'https://${url}/lifems/policy/queryNeedCheckMessage', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'organId': 10813}, 'expect': 0, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}" ]
+      }, {
+        "name" : "test01[data3]",
+        "uid" : "17624f5fe76592fb",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787764746,
+          "stop" : 1610787765073,
+          "duration" : 327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '保单列表', 'environment': '生产', 'url': 'https://${url}/lifems/user/policyList', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}, 'expect': '000092406879922', 'rely': {'yes_rely': 'data.customerAllPolicyList.0.policyCode'}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data11]",
+        "uid" : "2f171aa30842a9e5",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787767331,
+          "stop" : 1610787767650,
+          "duration" : 319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '柜面预约网点查询接口', 'environment': '生产', 'url': 'https://${url}/lifems/appointment/listSiteByCity', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'city': '上海市', 'lat': 31.188655, 'lng': 121.461991, 'pageNumber': 1, 'pageSize': 100}, 'expect': '陆家嘴支公司', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data12]",
+        "uid" : "eb991791c982d035",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787767661,
+          "stop" : 1610787768467,
+          "duration" : 806
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '获取服务指引接口', 'environment': '生产', 'url': 'https://${url}/campaignsms/getProblemList', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'baseId': 0}, 'expect': '理赔项目及对应材料', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data0]",
+        "uid" : "8a21283e3397acdc",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787763453,
+          "stop" : 1610787764086,
+          "duration" : 633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '进入保单服务', 'environment': '生产', 'url': 'https://${url}/campaignsms/advert/getAdverts', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'code': None, 'type': 14, 'userId': 1254671242951266304}, 'expect': '服务页', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data9]",
+        "uid" : "56678350bb591dc8",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787766788,
+          "stop" : 1610787767009,
+          "duration" : 221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '/lifems/vivoDetection/init', 'environment': '生产', 'url': 'https://${url}/lifems/vivoDetection/init', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'bizType': 'detection', 'deviceType': 'ANDROID', 'idNo': 362501199405133011, 'realName': '章豹'}, 'expect': 0, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}" ]
+      }, {
+        "name" : "test01[data2]",
+        "uid" : "a603671259f99bb7",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787764490,
+          "stop" : 1610787764736,
+          "duration" : 246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': 'isExistsRenewPolicyFlag', 'environment': '生产', 'url': 'https://${url}/lifems/user/isExistsRenewPolicyFlag', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': None, 'expect': 0, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data5]",
+        "uid" : "a7df2e5b52068235",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787765408,
+          "stop" : 1610787765966,
+          "duration" : 558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '电子保单详情', 'environment': '生产', 'url': 'https://${url}/lifems/policy/queryPolicyInfo', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'policyCode': 1}, 'expect': '000092406879922', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}" ]
+      }, {
+        "name" : "test01[data13]",
+        "uid" : "e46a7c317951ede8",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787768481,
+          "stop" : 1610787768819,
+          "duration" : 338
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '续签缴费保单列表接口', 'environment': '生产', 'url': 'https://${url}/lifems/RenewPolicyApi/getRenewPolicyList', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': None, 'expect': 0, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      }, {
+        "name" : "test01[data4]",
+        "uid" : "f615d6f3bc1c564b",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787765123,
+          "stop" : 1610787765397,
+          "duration" : 274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '保单详情', 'environment': '生产', 'url': 'https://${url}/lifems/user/policyInfo', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'policyCode': 1, 'policyType': 1}, 'expect': '000092406879922', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要参数依赖'}}" ]
+      }, {
+        "name" : "test01[data1]",
+        "uid" : "9edd27cdee04cda",
+        "parentUid" : "8bc07b246a822fa7a6092538abf0d92e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787764096,
+          "stop" : 1610787764488,
+          "duration" : 392
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'casename': '保单服务页资讯列表接口', 'environment': '生产', 'url': 'https://${url}/campaignsms/essay/queryEssayListV3', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'id': 3, 'pageNo': 1, 'pageSize': 10}, 'expect': '保险', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+      } ],
+      "uid" : "8bc07b246a822fa7a6092538abf0d92e"
+    } ],
+    "uid" : "2852c99269b83ba5ddc7a1c398b61f2e"
+  } ]
+}

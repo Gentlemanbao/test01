@@ -1,0 +1,207 @@
+{
+  "uid" : "823e0ef444a2b7d5",
+  "name" : "test01[data6]",
+  "fullName" : "test_tpt_run.test_tpt_run.TestCaseRun#test01",
+  "historyId" : "e63c4347ea630b430e50079ba7a440c4",
+  "time" : {
+    "start" : 1610787765977,
+    "stop" : 1610787766213,
+    "duration" : 236
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "my_fixture_log",
+    "time" : {
+      "start" : 1610787763451,
+      "stop" : 1610787763452,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "my_fixture_three",
+    "time" : {
+      "start" : 1610787763452,
+      "stop" : 1610787763452,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "773c16329cc7f904",
+      "name" : "log",
+      "source" : "773c16329cc7f904.txt",
+      "type" : "text/plain",
+      "size" : 1355
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "my_fixture_log::0",
+    "time" : {
+      "start" : 1610787768826,
+      "stop" : 1610787768826,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "my_fixture_three::0",
+    "time" : {
+      "start" : 1610787768822,
+      "stop" : 1610787768822,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接口自动化测试类"
+  }, {
+    "name" : "story",
+    "value" : "保单服务页接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_tpt_run"
+  }, {
+    "name" : "suite",
+    "value" : "test_tpt_run"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseRun"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-DEGO9795"
+  }, {
+    "name" : "thread",
+    "value" : "24680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tpt_run.test_tpt_run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'casename': '/userms/identification/customerAuthCheck', 'environment': '生产', 'url': 'https://${url}/userms/identification/customerAuthCheck', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'userId': 1254671242951266304}, 'expect': 1170064002, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dff2215162a693fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610787588600,
+        "stop" : 1610787588869,
+        "duration" : 269
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "567be2fd23ca270f",
+        "reportUrl" : "http://localhost:8080/job/TPT-APITEST/20/allure/#testresult/567be2fd23ca270f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787588600,
+          "stop" : 1610787588869,
+          "duration" : 269
+        }
+      }, {
+        "uid" : "dcdeb329540fb660",
+        "reportUrl" : "http://localhost:8080/job/TPT-APITEST/19/allure/#testresult/dcdeb329540fb660",
+        "status" : "broken",
+        "statusDetails" : "PermissionError: [WinError 5] 拒绝访问。: './temp/history'",
+        "time" : {
+          "start" : 1610787439238,
+          "stop" : 1610787439238,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2563d6ddca97c92",
+        "reportUrl" : "http://localhost:8080/job/TPT-APITEST/18/allure/#testresult/2563d6ddca97c92",
+        "status" : "broken",
+        "statusDetails" : "PermissionError: [WinError 5] 拒绝访问。: './temp/history'",
+        "time" : {
+          "start" : 1610787359378,
+          "stop" : 1610787359378,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e94ecd501cdb5e13",
+        "reportUrl" : "http://localhost:8080/job/TPT-APITEST/17/allure/#testresult/e94ecd501cdb5e13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610786889141,
+          "stop" : 1610786889972,
+          "duration" : 831
+        }
+      }, {
+        "uid" : "90e1c1a40edbabea",
+        "reportUrl" : "http://localhost:8080/job/TPT-APITEST/16/allure/#testresult/90e1c1a40edbabea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610786667864,
+          "stop" : 1610786668343,
+          "duration" : 479
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "823e0ef444a2b7d5.json",
+  "parameterValues" : [ "{'casename': '/userms/identification/customerAuthCheck', 'environment': '生产', 'url': 'https://${url}/userms/identification/customerAuthCheck', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'userId': 1254671242951266304}, 'expect': 1170064002, 'rely': {'yes_rely': None}, 'is_rely': {'isrely': '需要依赖数据'}}" ]
+}

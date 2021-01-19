@@ -1,0 +1,139 @@
+{
+  "uid" : "21835870194def93",
+  "name" : "test01[data3]",
+  "fullName" : "test_tpt_run.test_tpt_run.TestCaseRun#test01",
+  "historyId" : "6373bdb4f48df7657170797de308beb9",
+  "time" : {
+    "start" : 1610787583748,
+    "stop" : 1610787585595,
+    "duration" : 1847
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "my_fixture_log",
+    "time" : {
+      "start" : 1610787579576,
+      "stop" : 1610787579612,
+      "duration" : 36
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "my_fixture_three",
+    "time" : {
+      "start" : 1610787579613,
+      "stop" : 1610787579613,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b1f48f1149ae187",
+      "name" : "log",
+      "source" : "b1f48f1149ae187.txt",
+      "type" : "text/plain",
+      "size" : 1440
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "my_fixture_log::0",
+    "time" : {
+      "start" : 1610787592433,
+      "stop" : 1610787592433,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "my_fixture_three::0",
+    "time" : {
+      "start" : 1610787592428,
+      "stop" : 1610787592428,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "保单服务页接口"
+  }, {
+    "name" : "feature",
+    "value" : "接口自动化测试类"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_tpt_run"
+  }, {
+    "name" : "suite",
+    "value" : "test_tpt_run"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseRun"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-DEGO9795"
+  }, {
+    "name" : "thread",
+    "value" : "21052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tpt_run.test_tpt_run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'casename': '保单列表', 'environment': '生产', 'url': 'https://${url}/lifems/user/policyList', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}, 'expect': '000092406879922', 'rely': {'yes_rely': 'data.customerAllPolicyList.0.policyCode'}, 'is_rely': {'isrely': None}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21835870194def93.json",
+  "parameterValues" : [ "{'casename': '保单列表', 'environment': '生产', 'url': 'https://${url}/lifems/user/policyList', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}, 'expect': '000092406879922', 'rely': {'yes_rely': 'data.customerAllPolicyList.0.policyCode'}, 'is_rely': {'isrely': None}}" ]
+}

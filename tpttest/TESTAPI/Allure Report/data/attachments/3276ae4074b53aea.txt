@@ -1,0 +1,38 @@
+INFO     logs1.log:logfun.py:24 请求开始：请求接口名称 柜面预约网点查询接口
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Sat, 16 Jan 2021 08:44:32 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917184c45525d5f4f58455e445a4a4231d2;expires=Sat, 16-Jan-2021 09:04:32 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/lifems/appointment/listSiteByCity
+请求入参{'city': '上海市', 'lat': 31.188655, 'lng': 121.461991, 'pageNumber': 1, 'pageSize': 100}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "dtos" : [ {
+      "siteid" : "SID20200110101517581148939",
+      "sitecode" : "10110-001",
+      "sitename" : "黄浦支公司",
+      "orderservice" : "1",
+      "businesshours" : "周一至周五：上午 09：00—12：00，下午 13：30—17：30，周六营业时间上午 09：00—11：30，下午 13：00—17：00，不受理缴费业务（现金及POS机等），周日休息",
+      "tel" : null,
+      "address" : "上海市黄浦区延安东路550号15楼\r\n",
+      "lng" : "121.488114",
+      "lat" : "31.236727",
+      "distance" : 5.901054398114181
+    }, {
+      "siteid" : "SID20200110101632095733336",
+      "sitecode" : "10120-001",
+      "sitename" : "陆家嘴支公司",
+      "orderservice" : "1",
+      "businesshours" : "周一至周五：上午 09：00—12：00，下午 13：30—17：30，周六营业时间上午 09：00—11：30，下午 13：00—17：00，不受理缴费业务（现金及POS机等），周日休息",
+      "tel" : null,
+      "address" : "上海市浦东新区世纪大道1168号东方金融广场B座17楼",
+      "lng" : "121.529216",
+      "lat" : "31.235738",
+      "distance" : 8.272483809737015
+    } ],
+    "mobilePhone" : null,
+    "projectName" : null
+  }
+}

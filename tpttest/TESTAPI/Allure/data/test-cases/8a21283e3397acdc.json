@@ -1,0 +1,207 @@
+{
+  "uid" : "8a21283e3397acdc",
+  "name" : "test01[data0]",
+  "fullName" : "test_tpt_run.test_tpt_run.TestCaseRun#test01",
+  "historyId" : "bb4df03ff961629bc4defcfc27a3963d",
+  "time" : {
+    "start" : 1610787763453,
+    "stop" : 1610787764086,
+    "duration" : 633
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "my_fixture_log",
+    "time" : {
+      "start" : 1610787763451,
+      "stop" : 1610787763452,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "my_fixture_three",
+    "time" : {
+      "start" : 1610787763452,
+      "stop" : 1610787763452,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "62ed2f7531bc1a07",
+      "name" : "log",
+      "source" : "62ed2f7531bc1a07.txt",
+      "type" : "text/plain",
+      "size" : 1423
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "my_fixture_log::0",
+    "time" : {
+      "start" : 1610787768826,
+      "stop" : 1610787768826,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "my_fixture_three::0",
+    "time" : {
+      "start" : 1610787768822,
+      "stop" : 1610787768822,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接口自动化测试类"
+  }, {
+    "name" : "story",
+    "value" : "保单服务页接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_tpt_run"
+  }, {
+    "name" : "suite",
+    "value" : "test_tpt_run"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseRun"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-DEGO9795"
+  }, {
+    "name" : "thread",
+    "value" : "24680-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tpt_run.test_tpt_run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'casename': '进入保单服务', 'environment': '生产', 'url': 'https://${url}/campaignsms/advert/getAdverts', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'code': None, 'type': 14, 'userId': 1254671242951266304}, 'expect': '服务页', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a6e7670b5d1364e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610787579616,
+        "stop" : 1610787580069,
+        "duration" : 453
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "d00113e3b9a82795",
+        "reportUrl" : "http://localhost:8080/job/TPT-APITEST/20/allure/#testresult/d00113e3b9a82795",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610787579616,
+          "stop" : 1610787580069,
+          "duration" : 453
+        }
+      }, {
+        "uid" : "a1d7233c77b10b6b",
+        "reportUrl" : "http://localhost:8080/job/TPT-APITEST/19/allure/#testresult/a1d7233c77b10b6b",
+        "status" : "broken",
+        "statusDetails" : "PermissionError: [WinError 5] 拒绝访问。: './temp/history'",
+        "time" : {
+          "start" : 1610787439159,
+          "stop" : 1610787439159,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "17673887ceefd53a",
+        "reportUrl" : "http://localhost:8080/job/TPT-APITEST/18/allure/#testresult/17673887ceefd53a",
+        "status" : "broken",
+        "statusDetails" : "PermissionError: [WinError 5] 拒绝访问。: './temp/history'",
+        "time" : {
+          "start" : 1610787359202,
+          "stop" : 1610787359202,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d6e742378d36f249",
+        "reportUrl" : "http://localhost:8080/job/TPT-APITEST/17/allure/#testresult/d6e742378d36f249",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610786886109,
+          "stop" : 1610786887772,
+          "duration" : 1663
+        }
+      }, {
+        "uid" : "3d651fce3f8750fd",
+        "reportUrl" : "http://localhost:8080/job/TPT-APITEST/16/allure/#testresult/3d651fce3f8750fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610786665673,
+          "stop" : 1610786666419,
+          "duration" : 746
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8a21283e3397acdc.json",
+  "parameterValues" : [ "{'casename': '进入保单服务', 'environment': '生产', 'url': 'https://${url}/campaignsms/advert/getAdverts', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': {'code': None, 'type': 14, 'userId': 1254671242951266304}, 'expect': '服务页', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+}

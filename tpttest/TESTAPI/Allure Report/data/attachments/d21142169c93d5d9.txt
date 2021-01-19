@@ -1,0 +1,129 @@
+INFO     logs1.log:logfun.py:24 请求开始：请求接口名称 保单详情
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Sat, 16 Jan 2021 08:44:29 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917180945525d5f4f58455e445a4a4231d2;expires=Sat, 16-Jan-2021 09:04:29 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/lifems/user/policyInfo
+请求入参{'policyCode': '000092406879922', 'policyType': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "currentPageIndex" : 1,
+    "totalCount" : 0,
+    "pageSize" : null,
+    "haveNextPage" : false,
+    "totalPages" : 0,
+    "invoiceInformation" : null,
+    "policyInformation" : {
+      "policyCode" : "000092406879922",
+      "statusName" : "有效",
+      "validateDate" : "2020年04月28日",
+      "endDate" : "2056年04月27日",
+      "applicantId" : 255699295,
+      "applicantName" : "章豹",
+      "insuredId" : 255699295,
+      "insuredName" : "章豹",
+      "bene1Name" : "章豹 ",
+      "bene2Name" : null,
+      "periodPrem" : 9.9,
+      "nextDiscountPrem" : 10.2,
+      "payToDate" : "2021年04月28日",
+      "renewalType" : "年交",
+      "agentName" : "黄玉焕",
+      "agentTelephone" : null,
+      "bankAccount" : "4200000538202004272879039201",
+      "productAbbr" : "质安心医疗"
+    },
+    "insuranceTypeRsp" : {
+      "currentPageIndex" : 1,
+      "totalCount" : 1,
+      "pageSize" : null,
+      "haveNextPage" : false,
+      "totalPages" : 0,
+      "policyProductList" : [ {
+        "policyCode" : "000092406879922",
+        "productId" : 4074,
+        "productNum" : "100",
+        "productName" : "太平质安心质子重离子医疗保险",
+        "statusName" : "有效",
+        "amount" : 3000000.0,
+        "unit" : 1.0,
+        "validateDate" : "2020年04月28日",
+        "periodPrem" : 9.9,
+        "payToDate" : "2021年04月28日",
+        "insuredId" : 255699295,
+        "insuredName" : "章豹",
+        "unitFlag" : "1",
+        "benefitLevel" : null,
+        "levelDesc" : null,
+        "showDesc" : "份数",
+        "coPies" : "1份"
+      } ]
+    },
+    "policyNoticeRsp" : {
+      "policyNoticeList" : [ {
+        "messageWay" : "Y",
+        "webWay" : "N",
+        "letterWay" : "N",
+        "typeName" : "缴费提醒",
+        "noticeType" : 2.0,
+        "noticeWay" : 2.0,
+        "policyCode" : "000092406879922",
+        "emailWay" : "N"
+      }, {
+        "messageWay" : "N",
+        "webWay" : "N",
+        "letterWay" : "Y",
+        "typeName" : "永久失效通知书",
+        "noticeType" : 5.0,
+        "noticeWay" : 1.0,
+        "policyCode" : "000092406879922",
+        "emailWay" : "N"
+      }, {
+        "messageWay" : "W",
+        "webWay" : "W",
+        "letterWay" : "W",
+        "typeName" : "保单年度报告",
+        "noticeType" : 1.0,
+        "policyCode" : "000092406879922",
+        "emailWay" : "W"
+      }, {
+        "messageWay" : "W",
+        "webWay" : "W",
+        "letterWay" : "W",
+        "typeName" : "转账成功通知书",
+        "noticeType" : 3.0,
+        "policyCode" : "000092406879922",
+        "emailWay" : "W"
+      }, {
+        "messageWay" : "W",
+        "webWay" : "W",
+        "letterWay" : "W",
+        "typeName" : "失效通知书",
+        "noticeType" : 4.0,
+        "policyCode" : "000092406879922",
+        "emailWay" : "W"
+      } ]
+    },
+    "customerInfoRsp" : {
+      "policyCode" : "000092406879922",
+      "applicantName" : "章豹",
+      "applicantBirthday" : "1994年05月13日",
+      "applicantCeller" : "13023221797",
+      "applicantTel1" : null,
+      "applicantEmail" : "1228575415@qq.com",
+      "applicantCertiCode" : "362501199405133011",
+      "applicantGender" : "男",
+      "insuredName" : "章豹",
+      "insuredBirthday" : "1994年05月13日",
+      "insuredCeller" : "13023221797",
+      "insuredTel1" : null,
+      "insuredEmail" : "1228575415@qq.com",
+      "insuredCertiType" : "1",
+      "insuredCertiCode" : "362501199405133011",
+      "insuredGender" : "男"
+    },
+    "queryAccessoryRiskRsp" : null
+  }
+}

@@ -1,0 +1,36 @@
+INFO     logs1.log:logfun.py:24 请求开始：请求接口名称 保单列表
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Sat, 16 Jan 2021 09:02:47 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917187445525d5f4f58455e445a4a4231d2;expires=Sat, 16-Jan-2021 09:22:47 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/lifems/user/policyList
+请求入参{'pageIndex': 1, 'pageSize': 300, 'policyStatus': 0, 'status': 1}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "currentPageIndex" : 0,
+    "totalCount" : 3,
+    "pageSize" : 300,
+    "haveNextPage" : true,
+    "totalPages" : 1,
+    "customerAllPolicyList" : [ {
+      "policyCode" : "000092406879922",
+      "statusName" : "保障中",
+      "productName" : "太平质安心质子重离子医疗保险",
+      "applicantId" : 255699295,
+      "applicantName" : "章豹",
+      "insuredId" : 255699295,
+      "insuredName" : "章豹",
+      "validateDate" : "2020-04-28",
+      "pauseDate" : "",
+      "endDate" : "2056-04-27",
+      "policyType" : 1,
+      "polInsuId" : null,
+      "riskCode" : null,
+      "licenseNo" : null,
+      "polProductName" : null
+    } ],
+    "isView" : "0"
+  }
+}

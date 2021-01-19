@@ -1,0 +1,34 @@
+INFO     logs1.log:logfun.py:24 请求开始：请求接口名称 进入保单服务
+<PreparedRequest [POST]>
+{'Server': 'nginx', 'Date': 'Sat, 16 Jan 2021 09:02:46 GMT', 'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'Set-Cookie': 'NSC_XBG_MCWT_UQF-UbjQjohUpoh_443=ffffffff0917187645525d5f4f58455e445a4a4231d2;expires=Sat, 16-Jan-2021 09:22:46 GMT;path=/;secure;httponly'}
+请求url https://ecustomer.cntaiping.com/campaignsms/advert/getAdverts
+请求入参{'code': None, 'type': 14, 'userId': 1254671242951266304}
+响应code<Response [200]>
+响应结果{
+  "code" : "0000",
+  "msg" : null,
+  "desc" : null,
+  "data" : {
+    "list" : [ {
+      "type" : "14",
+      "name" : "服务页",
+      "img" : "https://ecustomercdn.itaiping.com/static/customer_headimage/202012/05/7e429feb158a4ddebd4327ff846e60c2.png",
+      "linkInfo" : {
+        "linkType" : "2",
+        "linkUrl" : "https://mallcdn.itaiping.com/#/glodParadise",
+        "moduleValue" : null
+      },
+      "sort" : 1,
+      "businessType" : "0",
+      "authorization" : null,
+      "login" : null,
+      "detail" : null,
+      "tagUrl" : "https://mallcdn.itaiping.com/#/glodParadise",
+      "pageType" : "HTML",
+      "advId" : 144,
+      "onceShow" : "0",
+      "frequencyLevel" : "2",
+      "link" : true
+    } ]
+  }
+}

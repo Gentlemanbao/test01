@@ -1,0 +1,149 @@
+{
+  "uid" : "663575dee9a71da",
+  "name" : "test01[data5]",
+  "fullName" : "test_tpt_run.test_tpt_run.TestCaseRun#test01",
+  "historyId" : "3b9933aa7a9f0f1b5fd4da5cb280f1b3",
+  "time" : {
+    "start" : 1610786667549,
+    "stop" : 1610786667756,
+    "duration" : 207
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False is True",
+  "statusTrace" : "self = <TESTAPI.test_tpt_run.test_tpt_run.TestCaseRun object at 0x000002089A21C288>\nmy_fixture_three = <TESTAPI.case_base.case_base.CaseBase object at 0x000002089A2131C8>\ndata = False\n\n    @allure.story(\"保单服务页接口\")\n    @pytest.mark.parametrize(\"data\", ReadConfig(\"./case/Policy_services_case.yaml\").read_config())\n    def test01(self, my_fixture_three, data):\n        data = my_fixture_three.read_case_data(data)\n>       assert data is True\nE       assert False is True\n\ntest_tpt_run\\test_tpt_run.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "my_fixture_log",
+    "time" : {
+      "start" : 1610786665544,
+      "stop" : 1610786665670,
+      "duration" : 126
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "my_fixture_three",
+    "time" : {
+      "start" : 1610786665670,
+      "stop" : 1610786665670,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False is True",
+    "statusTrace" : "self = <TESTAPI.test_tpt_run.test_tpt_run.TestCaseRun object at 0x000002089A21C288>\nmy_fixture_three = <TESTAPI.case_base.case_base.CaseBase object at 0x000002089A2131C8>\ndata = False\n\n    @allure.story(\"保单服务页接口\")\n    @pytest.mark.parametrize(\"data\", ReadConfig(\"./case/Policy_services_case.yaml\").read_config())\n    def test01(self, my_fixture_three, data):\n        data = my_fixture_three.read_case_data(data)\n>       assert data is True\nE       assert False is True\n\ntest_tpt_run\\test_tpt_run.py:13: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dfd30981b1810bfd",
+      "name" : "log",
+      "source" : "dfd30981b1810bfd.txt",
+      "type" : "text/plain",
+      "size" : 702
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "my_fixture_log::0",
+    "time" : {
+      "start" : 1610786670617,
+      "stop" : 1610786670617,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "my_fixture_three::0",
+    "time" : {
+      "start" : 1610786670611,
+      "stop" : 1610786670613,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接口自动化测试类"
+  }, {
+    "name" : "story",
+    "value" : "保单服务页接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_tpt_run"
+  }, {
+    "name" : "suite",
+    "value" : "test_tpt_run"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseRun"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-DEGO9795"
+  }, {
+    "name" : "thread",
+    "value" : "16148-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tpt_run.test_tpt_run"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'casename': '电子保单列表', 'environment': '生产', 'url': 'https://${url}/lifems/policy/policyListAndAnswer', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': None, 'expect': '太平质安心质子重离子医疗保险', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "663575dee9a71da.json",
+  "parameterValues" : [ "{'casename': '电子保单列表', 'environment': '生产', 'url': 'https://${url}/lifems/policy/policyListAndAnswer', 'method': 'post', 'headers': {'x-ac-token-ticket': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI3YWI3NTE0OGI2OWE0MDdjOGMzMDYwZTdmYjU0YjRmMSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTI1NDY3MTI0Mjk1MTI2NjMwNCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjEzMDIzMjIxNzk3Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA2OTM5MDAsImV4cCI6MTY0MjIyOTkwMH0.PxUfuhLrdi4a_USSSs9r5b22vSkzAJ_Eh8mzDGUM66S5lEdX2bL6eLzUDEohRURAaWiUzU-anDP2_nH1j0DSzlrLUAn6Of5xWPe7bHIZhKoRUwq_0_GdD-aVNArMFEtxfNl5lAIbzePVwkzF7f-pNq1x437wefgNKah41tRhWuA', 'Accept': 'application/json', 'Content-Type': 'application/json; charset=UTF-8'}, 'request_body': None, 'expect': '太平质安心质子重离子医疗保险', 'rely': {'yes_rely': None}, 'is_rely': {'isrely': None}}" ]
+}

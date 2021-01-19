@@ -1,0 +1,20 @@
+-
+  casename: 保单列表
+  environment: sit
+  url: https://${url}/lifems/user/policyList
+  method: post
+  headers:
+    x-ac-token-ticket: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI2Nzk5NGM0YjdmNWE0MDRjOTY2YzFlNGJhNDY3ZDg4ZSIsImF1ZCI6IkFVIiwidXNlcklkIjoiMTE3NDYzNDEwMDczMzUxMzcyOCIsImFjY1R5cGUiOiJtb2JpbGUiLCJhY2NObyI6IjE1ODU4MjI0MzM5Iiwib3RoZXJJbmZvIjoiIiwiaXNzIjoia2h0LnRhaXBpbmciLCJpYXQiOjE2MTA1MjE0NDYsImV4cCI6MTY0MjA1NzQ0Nn0.MOuXLvI7Pt27gEFySnDeyZRnuhxat0afi696TLE660qd8hP5z9r7mBKH-Luwp8oE8zZsaRQTYCMUIvVHpIAwlEQvG_xuoCwdfc6MTgTuc34c9G9sGVVh-w5tPApAMDGLoSza6asMPfyPqy0fG3pBIwFdR-SNd4zvh0EwghSSELg
+    Accept: application/json
+    Content-Type: application/json; charset=UTF-8
+  request_body:
+    pageIndex: 1
+    pageSize: 300
+    policyStatus: 0
+    status: 1
+  expect:
+    code: "0000"
+  rely:
+    yes_rely:
+  is_rely:
+    isrely:
